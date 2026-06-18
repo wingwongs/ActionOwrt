@@ -9,6 +9,7 @@ export repos=(
   "src-git OpenClash https://github.com/vernesong/OpenClash;master"
   "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main"
   "src-git ghfu https://github.com/smallprogram/luci-app-ghfu.git;main"
+  "src-git tailscale_community https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community.git;master"
 )
 
 # 自定义软件包列表
