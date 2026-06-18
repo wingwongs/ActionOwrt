@@ -56,7 +56,7 @@ fi
 rm -rf ./feeds/packages/net/open-app-filter
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.250/g' package/base-files/files/bin/config_generate
 
 # fixed rust host build download llvm in ci error
 # sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' package/custom_overrides/rust/Makefile
@@ -114,6 +114,31 @@ fi
 /etc/init.d/sshd enable
 /etc/init.d/sshd start
 
+uci set network.lan.ipaddr='192.168.1.250'
+uci set network.lan.netmask='255.255.255.0'
+uci set network.lan.gateway='192.168.1.1'
+uci set network.lan.dns='114.114.114.114'
+
+# IPv6 支持与通告设置
+# uci set network.lan.ipv6='1'
+
+# 2. 绑定网口与设置 wan6
+# 绑定物理网口：lan -> eth0, wan -> eth1
+uci set network.lan.device='eth0'
+uci set network.wan.device='eth1'
+
+# 将 wan6 的物理接口也设置为 eth1
+# 在 OpenWrt 中，wan6 可能会直接使用 @wan，如果显式设定 device，则设定为 eth1
+if uci get network.wan6 >/dev/null 2>&1; then
+    uci set network.wan6.device='eth1'
+fi
+
+# 3. 旁路由模式需要关闭自身DHCP服务 (由主路由分发DHCP)
+uci set dhcp.lan.ignore='1'
+
+# 保存生效
+uci commit network
+uci commit dhcp
 exit 0
 EOF
 
