@@ -5,3 +5,4 @@ openwrt-passwall2:426571850958db2bded801c4f23090438026a9ec
 OpenClash:a86fb847719815ff3ab1e94261d5b2bbeabdaef1
 OpenWrt-nikki:f08bd6932751d215920af944caa5a07d2fc70ad7
 luci-app-ghfu:03c7957a6d2ed48dafd41ae1c078392fbccca9ec
+luci-app-tailscale-community:6b24874139d512968aa3c455130e5b375ba8d2b2

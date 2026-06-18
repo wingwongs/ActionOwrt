@@ -1,10 +1,10 @@
 <details> <summary> <b>lede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/987913ed9e734ee89c726403c06745162bd9c1bc...8dddaee18cd295078b9c0ab4f8a30695a676d353)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/8dddaee18cd295078b9c0ab4f8a30695a676d353...27ba2c2ddbc53e1632e04200ae8ebed0fb371a3a)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-8dddaee18|coolsnowwolf|Mon Jun 15 22:59:52 2026 +0800|odhcpd: update to latest HEAD
-139afb6bd|aiamadeus|Fri May 22 18:16:08 2026 +0800|rockchip: sync dts with upstream
+27ba2c2dd|coolsnowwolf|Thu Jun 18 02:00:17 2026 +0800|odhcpd: fix build with GCC 8
+e90e38a6c|aiamadeus|Fri Jun 12 18:06:10 2026 +0800|uboot-sunxi: drop yaml depends
 </details>

@@ -1,10 +1,25 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/bbce1cedcc52d60b1d41ece746bc6bf77b64b7f4...80d9abb3f7a498d31e133cad4c2e9b8da4a9494c)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/80d9abb3f7a498d31e133cad4c2e9b8da4a9494c...8e7ae1b936eedb086a898a00489b49a9f72bb403)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-80d9abb3f7|John Audia|Sat Jun 13 05:59:25 2026 -0400|backport: update dnsmasq to v2.93 from master
-73079fa3f1|Sven Eckelmann|Tue May 19 21:43:16 2026 +0200|ramips: pax1800-lite: fix label-mac-device
+8e7ae1b936|Hauke Mehrtens|Sun Apr 5 13:53:32 2026 +0200|build: set max-page-size linker flag to match target page size
+9c0c586eed|Thomas Weißschuh|Wed Jun 17 10:57:00 2026 +0200|util-linux: update to 2.41.5
+d37c4b869a|Thomas Weißschuh|Wed Jun 17 10:56:23 2026 +0200|tools: util-linux: update to 2.41.5
+4c468d22fb|Hauke Mehrtens|Sat Jun 13 01:17:23 2026 +0200|fritz-tools: fix out-of-bounds memset in TFFS segment expansion
+fda611d275|Hauke Mehrtens|Sat Jun 13 00:34:46 2026 +0200|ead: fix integer underflow in handle_send_a()
+041b2fd279|Hauke Mehrtens|Sun Jun 7 13:31:36 2026 +0200|uclient: update to Git HEAD (2026-06-07)
+d96413cba7|Hauke Mehrtens|Sat May 23 02:56:36 2026 +0200|ubus: update to Git HEAD (2026-05-23)
+3bc312c780|Hauke Mehrtens|Thu Jun 4 01:41:05 2026 +0200|rpcd: update to Git HEAD (2026-06-04)
+b3da93946d|Hauke Mehrtens|Tue Jun 16 02:19:46 2026 +0200|umdns: update to Git HEAD (2026-06-16)
+c3fe332fe2|Felix Fietkau|Fri May 22 12:55:55 2026 +0000|umdns: update to Git HEAD (2026-05-22)
+ff52e19f96|Hauke Mehrtens|Tue Jun 16 01:39:41 2026 +0200|uhttpd: update to Git HEAD (2026-06-16)
+2dbcdf1814|Hauke Mehrtens|Thu May 21 22:46:35 2026 +0200|uhttpd: update to Git HEAD (2026-05-21)
+66b0edb5ce|Andy Chiang|Wed May 20 11:01:47 2026 +0700|uhttpd: update to Git HEAD (2026-05-20)
+68e132ec28|Hauke Mehrtens|Fri May 15 03:00:14 2026 +0200|uhttpd: update to Git HEAD (2026-05-15)
+8aea6ef455|Paul Spooren|Tue Apr 21 13:28:48 2026 +0800|uhttpd: update to Git HEAD (2026-04-21)
+
+
 </details>
