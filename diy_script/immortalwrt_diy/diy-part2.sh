@@ -56,7 +56,7 @@ fi
 rm -rf ./feeds/packages/net/open-app-filter
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.1.250/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 # fixed rust host build download llvm in ci error
 # sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' package/custom_overrides/rust/Makefile
@@ -114,9 +114,9 @@ fi
 /etc/init.d/sshd enable
 /etc/init.d/sshd start
 
-uci set network.lan.ipaddr='192.168.1.250'
+uci set network.lan.ipaddr='192.168.2.250'
 uci set network.lan.netmask='255.255.255.0'
-uci set network.lan.gateway='192.168.1.1'
+uci set network.lan.gateway='192.168.2.1'
 uci set network.lan.dns='114.114.114.114'
 
 # IPv6 支持与通告设置
