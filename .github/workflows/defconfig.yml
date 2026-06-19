@@ -23,6 +23,8 @@ on:
         default: 'false'
   # schedule:
   #   - cron: 0 */8 * * *
+permissions:
+  contents: write
 
 env:
   MAKE_DEFCONFIG_SH: compile_script/step01_make_defconfig.sh
