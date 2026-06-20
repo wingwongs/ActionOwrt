@@ -1,0 +1,9 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/d6e457a1a70a9010195edeafdc0b8eb6e3b0f7f1...21a197dfebd3513a689b1a28832a64c19cefca27)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+21a197dfe|Stan Grishin|Sat May 16 02:49:46 2026 +0000|https-dns-proxy: update to 2026.03.18-4
+</details>
