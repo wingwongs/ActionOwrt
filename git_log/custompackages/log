@@ -15,3 +15,6 @@ luci-theme-alpha-reborn:99e0a0bd223e421c0b95182f715047d6c5511058
 netspeedtest:0c936e9dd513b2915229871b088b85ca817f5083
 luci-app-bandix-plus:8957a06a4c99e105d319b9893ed4d299cc0ad7b6
 openwrt-bandix-plus:354eb22b4bb091000173b7eba9f387692b797921
+luci-app-ddns-go:7092e6de6ad9fe3f7d327f70468dfd19e00d6f0e
+openwrt-smartdns:c892f12cd2daeb1c1e5140991dd4a6daa6ef7001
+luci-app-smartdns:9d3ecce74ef2c1e8d19970648478253ef35bf4da
