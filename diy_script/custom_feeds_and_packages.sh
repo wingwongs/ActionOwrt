@@ -51,6 +51,12 @@ clone_custom_packages () {
     
     git clone https://github.com/destan19/OpenAppFilter.git ${path}OpenAppFilter
 
+    # daed (QiuSimons 优化版, 基于 eBPF 的高性能透明代理)
+    git clone https://github.com/QiuSimons/luci-app-daed.git ${path}luci-app-daed
+
+    # partexp (一键自动分区扩容挂载)
+    git clone https://github.com/sirpdboy/luci-app-partexp.git ${path}luci-app-partexp
+
     
 
     # sed -i '/^[\t ]*PKG_VERSION:=/ s/\(PKG_VERSION:= *\)[^0-9.]*\([0-9.]*\)[^0-9.]*/\1\2/' "${path}luci-theme-alpha-reborn/Makefile"

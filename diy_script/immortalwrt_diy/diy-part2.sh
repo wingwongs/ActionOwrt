@@ -67,6 +67,12 @@ fi
 # rm appfilter
 rm -rf ./feeds/packages/net/open-app-filter
 
+# rm built-in daed/luci-app-daed (使用 QiuSimons 优化版替代)
+rm -rf ./feeds/packages/net/daed
+rm -rf ./feeds/luci/applications/luci-app-daed
+rm -rf ./package/feeds/packages/daed
+rm -rf ./package/feeds/luci/luci-app-daed
+
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
 

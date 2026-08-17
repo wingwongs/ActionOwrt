@@ -103,6 +103,12 @@ echo "🎉 所有插件注入完毕，保持了原汁原味的 Makefile 相对�
 
 
 #-----------------------------------------------修改脚本------------------------------------------------------------
+# rm built-in daed/luci-app-daed (使用 QiuSimons 优化版替代)
+rm -rf ./feeds/packages/net/daed
+rm -rf ./feeds/luci/applications/luci-app-daed
+rm -rf ./package/feeds/packages/daed
+rm -rf ./package/feeds/luci/luci-app-daed
+
 # Modify default IP
 sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
 
