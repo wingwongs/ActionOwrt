@@ -1,9 +1,11 @@
 <details> <summary> <b>luci-app-bandix new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/timsaya/luci-app-bandix/compare/8e140ed9080d93389a5054b6440604c61d35e086...7b7762a1851d7d25dcb05f509a992f16af2bb5b6)  
+#### [:mega: Full Changelog. ](https://github.com/timsaya/luci-app-bandix/compare/7b7762a1851d7d25dcb05f509a992f16af2bb5b6...d899c02a44ba83ddf5a2384507ca3c3105e9dacc)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-7b7762a|stefanlei|Thu Aug 13 00:03:03 2026 +0800|feat: add localized ads and donation support
+d899c02|stefanlei|Tue Aug 18 08:15:08 2026 +0800|chore: bump version to 0.12.10
+edac75f|stefanlei|Tue Aug 18 08:13:03 2026 +0800|refactor: remove donation section
+2877f77|stefanlei|Mon Aug 17 21:42:38 2026 +0800|refactor: remove homepage advertisements
 </details>

@@ -1,11 +1,24 @@
 <details> <summary> <b>immortalwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/immortalwrt/immortalwrt/compare/3dacd2fb6a48c5963b1026c6a343ec7e67cbf810...ce4e104df06d8dd397d34d053e7d857f5f2f42cd)  
+#### [:mega: Full Changelog. ](https://github.com/immortalwrt/immortalwrt/compare/ce4e104df06d8dd397d34d053e7d857f5f2f42cd...6081813a7ec91aba6555a74dc3f4d34f504f8a53)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-ce4e104df0|Tianling Shen|Wed Aug 12 11:55:07 2026 +0800|Merge Official Source
-d78c0fd16d|Robert Marko|Fri Jul 17 12:06:45 2026 +0200|uboot-airoha: fix AN7583 pinctrl compatible
-96f1df2152|Mikhail Kshevetskiy|Tue May 19 04:58:53 2026 +0300|uboot-airoha: update to v2026.07
+6081813a7e|Tianling Shen|Tue Aug 18 09:47:50 2026 +0800|Merge Official Source
+8924f6c895|Shiji Yang|Fri Aug 14 07:21:54 2026 +0800|kernel: fix kmod-switch-rtl8366-smi dependencies for econet target
+a83ab037db|Shiji Yang|Thu Aug 13 22:19:20 2026 +0800|kernel: fix kmod-mdio-gpio dependencies for econet target
+bee48059af|Shiji Yang|Thu Aug 13 19:01:50 2026 +0800|kernel: fix kmod-mdio-devres dependencies for econet target
+52e22c4b16|Shiji Yang|Mon Aug 10 08:19:52 2026 +0800|kernel: bump 6.12 to 6.12.103
+6d515de8c9|Shiji Yang|Mon Aug 3 18:57:22 2026 +0800|kernel: bump 6.12 to 6.12.102
+f3a2b0fea9|Rosen Penev|Thu Jun 4 14:17:26 2026 -0700|generic: ppc: replace revert with proper solution
+7656e6de5a|Shiji Yang|Thu Jul 30 01:59:06 2026 +0800|kernel: bump 6.12 to 6.12.100
+f10ae5e6db|Shiji Yang|Sat Jul 25 15:26:11 2026 +0800|kernel: bump 6.12 to 6.12.98
+e69fb9e2b3|Shiji Yang|Sat Jul 25 06:52:39 2026 +0800|kernel: bump 6.12 to 6.12.97
+21b63fed10|Shiji Yang|Thu Feb 26 00:03:30 2026 +0800|mediatek: drop PCIe reset assert delay patch
+22b571bdb2|Shiji Yang|Sun Jul 19 09:39:10 2026 +0800|kernel: bump 6.12 to 6.12.96
+82311e87fb|Shiji Yang|Sun Jul 5 11:29:02 2026 +0800|kernel: bump 6.12 to 6.12.95
+d69c2a7bea|Myeongjae SONG|Sun Aug 2 07:23:22 2026 +0000|ramips: fix PCIe reset GPIOs for ipTIME A8004T
+95dec97d08|Dmitry Mostovoy|Tue Jul 28 03:26:19 2026 -0400|mediatek: add support for Cudy WR3000U v1
+
 </details>

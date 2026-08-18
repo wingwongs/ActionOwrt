@@ -1,25 +1,12 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/47dcb95d638f7fa41173f9ed214e284ab5b01bca...4a296cd4d8482da5e55bf12103d90ebf0d0f0b5d)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/4a296cd4d8482da5e55bf12103d90ebf0d0f0b5d...794f38f58390d80ce5edd756b5c876c4828f0378)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-4a296cd4|A-BO|Sun Aug 16 23:12:54 2026 +0800|luci: optimize code
-6a749d1b|A-BO|Sun Aug 16 21:37:17 2026 +0800|luci: server: add WireGuard
-b4c54790|A-BO|Sun Aug 16 19:05:05 2026 +0800|luci: fix `node_subscribe_config` edit
-3a63dd89|A-BO|Sun Aug 16 19:04:18 2026 +0800|luci: add `remote_rewrite_ttl` option with Sing-Box
-406fe2eb|wybb|Sun Aug 16 11:27:56 2026 +0800|luci: migrate legacy server sections (#4450)
-2566b43b|A-BO|Sat Aug 15 03:12:45 2026 +0800|luci: optimize code
-d615c6bd|A-BO|Sat Aug 15 00:12:50 2026 +0800|luci: fix page redirect issue in JS LuCI CBI
-efc46cc8|A-BO|Fri Aug 14 22:57:16 2026 +0800|luci: fixup
-9c9251f6|handsomeji|Thu Aug 13 18:36:36 2026 +0800|luci: optimize code
-ed01e699|bruceliu1388|Fri Aug 14 00:33:15 2026 +0800|luci: fix: don't prefix literal /dev/null log_file with TMP_PATH (#4448)
-49556cb1|A-BO|Fri Aug 14 00:27:48 2026 +0800|luci: optimize dnsmasq related
-d87e3433|A-BO|Thu Aug 13 22:00:10 2026 +0800|luci: server: add duplicate username validation
-7da42ff4|A-BO|Thu Aug 13 20:27:49 2026 +0800|luci: server: update
-ba02ff03|A-BO|Thu Aug 13 15:28:38 2026 +0800|luci: server: rename sectiontype
-1f283f27|A-BO|Wed Aug 12 20:44:49 2026 +0800|luci: optimize the node list and shunt rule list sort logic
-
-
+794f38f5|A-BO|Mon Aug 17 22:25:54 2026 +0800|luci: optimize code
+85d7d117|wybb|Mon Aug 17 08:54:14 2026 +0800|luci: migrate legacy HAProxy health check type (#4451)
+2ba5b8a0|A-BO|Mon Aug 17 08:49:46 2026 +0800|luci: socks sortable
+6522d474|A-BO|Mon Aug 17 08:40:12 2026 +0800|luci: adjust delete node the socks logic
 </details>

@@ -1,10 +1,9 @@
 <details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/e2d0877f0ce2553840d6aaf8a1f8578328910b25...3848307f638ac05e8787295220f9798c48fb239b)  
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/3848307f638ac05e8787295220f9798c48fb239b...9045e9ff75227b2783b0b17ff37415b630e1c8de)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-3848307|Bard|Sun Aug 16 20:46:47 2026 +0800|luci-app-mosdns: update to 1.7.5 and add ucode dependency
-8ff3129|sbwml|Sun Aug 16 20:21:22 2026 +0800|mosdns: adblock_set: default to domain match and support prefix '^' for full match
+9045e9f|sbwml|Mon Aug 17 23:47:09 2026 +0800|luci-app-mosdns: fix log file becoming binary after clearing
 </details>

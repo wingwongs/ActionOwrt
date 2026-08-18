@@ -1,0 +1,13 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/immortalwrt/packages/compare/a5b67070eae7adf66e9c2285357272caad1c433b...4e8d525f20f4958cf0cf5159a661046825ea5d5f)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+4e8d525f2|Tianling Shen|Thu Aug 6 10:46:14 2026 +0800|7z: Update to 26.02
+be9fc3a91|Tianling Shen|Mon Jul 27 11:54:49 2026 +0800|qBittorrent-Enhanced-Edition: disable mips16 instructions
+813a51c3d|Tianling Shen|Mon Jul 27 11:54:10 2026 +0800|qbittorrent: disable mips16 instructions
+6fb0451f0|Fanx|Mon Aug 10 12:37:29 2026 +0800|smartdns: update to 48.4
+43f72d919|Tianling Shen|Tue Jun 30 17:24:26 2026 +0800|smartdns: Update to 48.2
+</details>

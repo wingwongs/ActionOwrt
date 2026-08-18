@@ -1,25 +1,11 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/25b7a87f7c7c8d2be64cfb65cb67c475d4d6f500...5b6cc215db64c81520bbd12f55e1044686c193c9)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/5b6cc215db64c81520bbd12f55e1044686c193c9...af41897f31a4b5405acb0ca9d7ecdd357d193a9d)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-5b6cc215d|Josef Schlehofer|Sat Aug 8 00:21:50 2026 +0200|rust: build soft-float on soft-float PowerPC subtargets
-c4418092c|Josef Schlehofer|Sun Aug 9 11:08:31 2026 +0200|rust: fix compare_exchange_weak never succeeding on mpc85xx
-f8b35d48b|Josef Schlehofer|Sat Aug 15 12:12:39 2026 +0200|luajit2: update to 2026-07-31
-a6a052ee8|Josef Schlehofer|Sat Aug 15 11:21:08 2026 +0200|luajit2: fix build and runtime on powerpc
-f0c97a4f8|Seo Suchan|Mon Jun 8 06:32:24 2026 +0900|luajit2: update test-version.sh to actual test
-064e33e04|Seo Suchan|Fri May 29 00:09:26 2026 +0900|luajit2: add test-version.sh
-4b017dedf|Javier Marcet|Mon Mar 2 21:41:29 2026 +0100|luajit2: update to v2.1-20260227
-fc8b2fec0|Hirokazu MORIKAWA|Sun Aug 2 10:11:24 2026 +0900|nghttp2: bump to 1.70.0
-232a46385|John Audia|Thu Aug 13 04:19:23 2026 -0400|rsync: update to 3.5.0
-838a58ebe|John Audia|Tue Jun 9 08:18:00 2026 -0400|rsync: update to 3.4.4
-a0c3b9b3c|George Sapkin|Mon Aug 10 15:50:43 2026 +0300|syncthing: bump to 2.1.3
-1608b85eb|George Sapkin|Thu Jul 16 14:45:31 2026 +0300|syncthing: bump to 2.1.2
-2bff2fd78|George Sapkin|Sat Jun 13 19:38:55 2026 +0300|syncthing: bump to 2.1.1
-410e8b36f|George Sapkin|Thu Jul 16 14:07:18 2026 +0300|adguardhome: bump to 0.107.78
-2a621bc44|David Mandy|Thu Jun 4 02:07:39 2026 +0800|adguardhome: bump to 0.107.77
-
-
+af41897f3|George Sapkin|Fri Aug 14 01:22:07 2026 +0300|golang: bump 1.26 to 1.26.6
+64b615550|Josef Schlehofer|Mon Aug 17 09:12:36 2026 +0200|librespeed-cli: update to 1.0.14
+cf82ed0ac|Sergei S.|Wed Jul 29 14:50:56 2026 +0400|sing-box: bump to 1.13.18 without Naive outbound support
 </details>
