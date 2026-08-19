@@ -1,12 +1,15 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/4a296cd4d8482da5e55bf12103d90ebf0d0f0b5d...794f38f58390d80ce5edd756b5c876c4828f0378)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/794f38f58390d80ce5edd756b5c876c4828f0378...46078071cf69cd4f44864b0b0f99b7b66409da78)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
+46078071|A-BO|Wed Aug 19 11:21:22 2026 +0800|luci: 26.8.19
+ab13bfe8|A-BO|Wed Aug 19 11:19:30 2026 +0800|uci: Xray `dokodemo-door` -> `tunnel`
+301342d9|A-BO|Wed Aug 19 10:15:49 2026 +0800|luci: optimize js luci cbi page redirect
+9f6de502|A-BO|Wed Aug 19 09:46:49 2026 +0800|luci: optimize socks status
+74ae219a|A-BO|Tue Aug 18 20:26:54 2026 +0800|luci: optimize and fix subscribe code
+42348820|A-BO|Mon Aug 17 22:25:54 2026 +0800|luci: optimize code
 794f38f5|A-BO|Mon Aug 17 22:25:54 2026 +0800|luci: optimize code
-85d7d117|wybb|Mon Aug 17 08:54:14 2026 +0800|luci: migrate legacy HAProxy health check type (#4451)
-2ba5b8a0|A-BO|Mon Aug 17 08:49:46 2026 +0800|luci: socks sortable
-6522d474|A-BO|Mon Aug 17 08:40:12 2026 +0800|luci: adjust delete node the socks logic
 </details>

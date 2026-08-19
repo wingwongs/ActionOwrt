@@ -1,11 +1,10 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/5b6cc215db64c81520bbd12f55e1044686c193c9...af41897f31a4b5405acb0ca9d7ecdd357d193a9d)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/af41897f31a4b5405acb0ca9d7ecdd357d193a9d...f645601dfe7d93ae308fcc6318920b0be7c9def5)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-af41897f3|George Sapkin|Fri Aug 14 01:22:07 2026 +0300|golang: bump 1.26 to 1.26.6
-64b615550|Josef Schlehofer|Mon Aug 17 09:12:36 2026 +0200|librespeed-cli: update to 1.0.14
-cf82ed0ac|Sergei S.|Wed Jul 29 14:50:56 2026 +0400|sing-box: bump to 1.13.18 without Naive outbound support
+f645601df|Dirk Brenken|Tue Aug 18 20:49:20 2026 +0200|travelmate: release 2.4.8-1
+890f7994e|Josef Schlehofer|Tue Aug 18 08:21:42 2026 +0200|syslog-ng: update to version 4.12.0
 </details>

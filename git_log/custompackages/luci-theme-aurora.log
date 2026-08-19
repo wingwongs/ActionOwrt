@@ -1,10 +1,10 @@
 <details> <summary> <b>luci-theme-aurora new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/6734945523b2de09b78dc6fa338e373dc2a280ef...58d6498da7c65fd0d40c4d0d0f1d47453cad1474)  
+#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/58d6498da7c65fd0d40c4d0d0f1d47453cad1474...b564a20622ff5b342d0ce80f8ca6535689ce428f)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-58d6498|Eamon|Mon Aug 17 12:47:44 2026 +0800|fix: hand same-URL navigations to the server, Turbo-shaped progress bar, no focus ring on the landmark
-4e71cb6|Eamon|Mon Aug 17 11:01:57 2026 +0800|fix: declare the used color scheme
+b564a20|Eamon|Tue Aug 18 11:52:05 2026 +0800|docs: re-measure the router doc and correct what drifted
+2917edc|Eamon|Tue Aug 18 11:51:49 2026 +0800|perf: add full-load and dispatch benchmark harnesses
 </details>
