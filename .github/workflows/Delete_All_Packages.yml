@@ -31,8 +31,8 @@ jobs:
     steps:
     - name: Delete all openwrt-* packages completely
       env:
-        GH_TOKEN: ${{ secrets.MY_SECRET_PAT }}
-        USERNAME: smallprogram
+        GH_TOKEN: ${{ secrets.MY_SECRET_PAT || github.token }}
+        USERNAME: ${{ github.repository_owner }}
       run: |
         echo "获取所有容器包列表..."
         

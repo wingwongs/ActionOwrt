@@ -470,17 +470,25 @@ jobs:
 
           REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
           PLATFORM_NAME=$(echo "${{ matrix.source_code_platform }}-${{ matrix.platform }}" | tr '[:upper:]' '[:lower:]')
-          IMAGE_NAME="ghcr.io/smallprogram/openwrt-base-cache-$PLATFORM_NAME:latest"
+          IMAGE_NAME="ghcr.io/$REPO_OWNER/openwrt-base-cache-$PLATFORM_NAME:latest"
+          UPSTREAM_IMAGE="ghcr.io/smallprogram/openwrt-base-cache-$PLATFORM_NAME:latest"
           
+          TARGET_IMAGE=""
           if docker pull $IMAGE_NAME; then
-            echo "==== 发现缓存，开始极速提取 ===="
+            TARGET_IMAGE=$IMAGE_NAME
+          elif docker pull $UPSTREAM_IMAGE; then
+            TARGET_IMAGE=$UPSTREAM_IMAGE
+          fi
+
+          if [ -n "$TARGET_IMAGE" ]; then
+            echo "==== 发现缓存 ($TARGET_IMAGE)，开始极速提取 ===="
             cd /workdir
-            docker create --name cache_container $IMAGE_NAME /bin/true
+            docker create --name cache_container $TARGET_IMAGE /bin/true
             
             # 导出整个容器的打包文件
             docker export cache_container > cache_exported.tar
             docker rm cache_container
-            docker rmi $IMAGE_NAME -f
+            docker rmi $TARGET_IMAGE -f
             
             # 直接提取原名分块
             tar -xf cache_exported.tar --wildcards "op_cache_raw_*" || true
@@ -632,11 +640,11 @@ jobs:
           df -hT
           REPO_OWNER=$(echo "${{ github.repository_owner }}" | tr '[:upper:]' '[:lower:]')
           PLATFORM_NAME=$(echo "${{ matrix.source_code_platform }}-${{ matrix.platform }}" | tr '[:upper:]' '[:lower:]')
-          IMAGE_NAME="ghcr.io/smallprogram/openwrt-base-cache-$PLATFORM_NAME:latest"
+          IMAGE_NAME="ghcr.io/$REPO_OWNER/openwrt-base-cache-$PLATFORM_NAME:latest"
 
           docker build -t $IMAGE_NAME .
-          docker push $IMAGE_NAME
-          echo "✅ 分块多层缓存推送完毕！"
+          docker push $IMAGE_NAME || echo "⚠️ 缓存推送失败，跳过缓存上传"
+          echo "✅ 分块多层缓存处理完毕！"
 
           # 清理临时数据文件
           echo "==== 清理临时数据文件 ===="
@@ -800,7 +808,8 @@ jobs:
     if: ${{ always() && !cancelled() }}
     steps:
       - name: Trigger Release Update
-        if: ${{ needs.rerun-failed-jobs.result == 'skipped' && fromJSON(github.run_attempt) < 4 }}
+        if: ${{ needs.rerun-failed-jobs.result == 'skipped' && fromJSON(github.run_attempt) < 4 && secrets.MY_SECRET_PAT != '' }}
+        continue-on-error: true
         uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.MY_SECRET_PAT }}
