@@ -39,7 +39,7 @@ jobs:
             # 抓取用户的所有 container packages
             PACKAGES=$(curl -s -H "Accept: application/vnd.github+json" \
               -H "Authorization: Bearer $GH_TOKEN" \
-              "https://api.github.com/users/$USERNAME/packages?package_type=container&per_page=100")
+              "https://api.github.com/user/packages?package_type=container&per_page=100")
 
             # 调试：打印原始响应
             echo "API 响应: $PACKAGES"
@@ -55,7 +55,7 @@ jobs:
 
             if [ -z "$TARGET_PACKAGES" ]; then
               echo "没有找到以 openwrt- 开头的包。"
-            exit 0
+              exit 0
             fi
 
             echo "准备删除以下包："
