@@ -1,9 +1,0 @@
-<details> <summary> <b>lede new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/ed936406799101d54073119cb7dd4b72100a4b25...e6cc2bedf8745674d6f682bd1b1474bfb7aa81b9)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-e6cc2bedf|John Audia|Thu Dec 25 08:31:13 2025 -0500|nat46: fix reproducible-build failure
-</details>

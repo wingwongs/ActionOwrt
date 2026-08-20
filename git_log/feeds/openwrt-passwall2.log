@@ -1,0 +1,11 @@
+<details> <summary> <b>openwrt-passwall2 new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/8916e7fe55354771bfc22f854c328db5a9887ec3...35f4b67ec7ee20ff04144c5ff0dfccc3943d0a2d)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+35f4b67|A-BO|Wed Aug 19 10:15:49 2026 +0800|luci: optimize js luci cbi page redirect
+af504f4|handsomeji|Wed Aug 19 18:14:30 2026 +0800|luci: fix and enhance monitor script
+346baf6|handsomeji|Sun Aug 16 16:40:04 2026 +0800|luci: Xray `dokodemo-door` -> `tunnel`
+</details>

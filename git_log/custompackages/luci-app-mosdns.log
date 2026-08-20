@@ -1,0 +1,9 @@
+<details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/9045e9ff75227b2783b0b17ff37415b630e1c8de...1759c841b749541256f322b208df8fb1ac6e6aff)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+1759c84|sbwml|Wed Aug 19 22:35:18 2026 +0800|mosdns: add query log support
+</details>

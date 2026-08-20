@@ -1,15 +1,13 @@
 <details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/794f38f58390d80ce5edd756b5c876c4828f0378...46078071cf69cd4f44864b0b0f99b7b66409da78)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/46078071cf69cd4f44864b0b0f99b7b66409da78...f91f3e5f22f514edb83216fa1deeab988c6e0cd5)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-46078071|A-BO|Wed Aug 19 11:21:22 2026 +0800|luci: 26.8.19
-ab13bfe8|A-BO|Wed Aug 19 11:19:30 2026 +0800|uci: Xray `dokodemo-door` -> `tunnel`
-301342d9|A-BO|Wed Aug 19 10:15:49 2026 +0800|luci: optimize js luci cbi page redirect
-9f6de502|A-BO|Wed Aug 19 09:46:49 2026 +0800|luci: optimize socks status
-74ae219a|A-BO|Tue Aug 18 20:26:54 2026 +0800|luci: optimize and fix subscribe code
-42348820|A-BO|Mon Aug 17 22:25:54 2026 +0800|luci: optimize code
-794f38f5|A-BO|Mon Aug 17 22:25:54 2026 +0800|luci: optimize code
+f91f3e5f|A-BO|Wed Aug 19 22:56:50 2026 +0800|luci: 26.8.19-2
+ea0bdbfb|A-BO|Wed Aug 19 22:53:48 2026 +0800|luci: fixup
+48f02599|A-BO|Wed Aug 19 20:25:16 2026 +0800|luci: fix and enhance monitor script
+ff46c5d5|A-BO|Wed Aug 19 18:22:57 2026 +0800|luci: optimize hy2 subscribe
+755e5358|A-BO|Wed Aug 19 13:15:37 2026 +0800|luci: fix i18n in `nodes_listvalue` template
 </details>
