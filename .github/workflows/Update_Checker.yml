@@ -19,7 +19,7 @@ on:
         required: false
         default: 'false'
   schedule:
-    - cron: '0 16 */5 * *'
+    - cron: '0 16 6 * *'
     # 每五天的UTC 16:00触发 北京时间为每五天的凌晨0点
 
 permissions:
