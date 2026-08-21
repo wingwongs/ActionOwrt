@@ -1,11 +1,12 @@
 <details> <summary> <b>openwrt-passwall2 new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/8916e7fe55354771bfc22f854c328db5a9887ec3...35f4b67ec7ee20ff04144c5ff0dfccc3943d0a2d)  
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall2/compare/35f4b67ec7ee20ff04144c5ff0dfccc3943d0a2d...bb547ac49d845305a9df2d808c1d2f23ed7eaed3)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-35f4b67|A-BO|Wed Aug 19 10:15:49 2026 +0800|luci: optimize js luci cbi page redirect
-af504f4|handsomeji|Wed Aug 19 18:14:30 2026 +0800|luci: fix and enhance monitor script
-346baf6|handsomeji|Sun Aug 16 16:40:04 2026 +0800|luci: Xray `dokodemo-door` -> `tunnel`
+bb547ac|handsomeji|Thu Aug 20 23:17:25 2026 +0800|luci: bump to 26.8.20
+d5ca4ab|Leone.Y|Thu Aug 20 23:15:13 2026 +0800|luci-app-passwall2: restart after NTP time becomes valid on RTC-less devices (#1229)
+1464646|handsomeji|Thu Aug 20 23:12:03 2026 +0800|luci: server: sing-box add missing users code
+ea9bd21|handsomeji|Thu Aug 20 21:45:17 2026 +0800|luci: fix subscribe when use HWID
 </details>

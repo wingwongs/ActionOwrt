@@ -1,0 +1,9 @@
+<details> <summary> <b>luci-theme-aurora new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/b564a20622ff5b342d0ce80f8ca6535689ce428f...b76241e4a370215ab4805ddfaa303388f38371d1)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+b76241e|Eamon|Thu Aug 20 16:19:21 2026 +0800|feat: palette recents and a ">" logout command (1.2.4)
+</details>

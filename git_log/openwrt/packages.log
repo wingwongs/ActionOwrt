@@ -1,21 +1,9 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/f645601dfe7d93ae308fcc6318920b0be7c9def5...f46934b820517bb9123b80c6312918dba3231187)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/f46934b820517bb9123b80c6312918dba3231187...c1e926d7222fc86defe8c3dda438a09a2082db82)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-f46934b82|Aditya Nugraha|Fri Jul 10 21:56:03 2026 +0700|libucontext: bump to 1.5.1 & glibc support
-82e589178|George Sapkin|Mon May 11 18:50:35 2026 +0300|libucontext: add version check override
-1fd3b0ddb|Daniel F. Dickinson|Sat Aug 8 12:43:53 2026 -0400|zabbix: bump version to 7.0.29
-d8f8ae086|Daniel F. Dickinson|Thu Jul 16 21:01:36 2026 -0400|zabbix: bring proxy to parity with server and agentd
-1c2a4ad89|Daniel F. Dickinson|Thu Jul 16 20:21:41 2026 -0400|zabbix: tweak server initscript and bring agentd to parity
-2a0e1e250|Daniel F. Dickinson|Thu Jul 16 19:47:53 2026 -0400|zabbix: tweak patch agent and server patch configs
-af8ea0f07|Daniel F. Dickinson|Wed Jul 15 22:30:00 2026 -0400|zabbix: use separate users for server and proxy
-fb283c37a|Daniel F. Dickinson|Fri Jul 17 02:48:36 2026 -0400|zabbix: add php8-mod-simplexml dependency to frontend
-2fc13d4c4|Daniel F. Dickinson|Fri Jul 17 02:28:30 2026 -0400|zabbix: stop shipping sysctl.d conf in package
-8247da13f|Daniel F. Dickinson|Thu Jul 16 23:56:31 2026 -0400|zabbix: reorganize files dir for clarity and to better follow the FHS
-6cdfe2c97|Daniel F. Dickinson|Thu Jul 16 21:09:43 2026 -0400|zabbix: preserve user config files across sysupgrade
-f3db0690c|Daniel F. Dickinson|Wed Jul 15 21:41:38 2026 -0400|zabbix: bump version to 7.0.28
-ca566bbe0|Daniel F. Dickinson|Wed Jul 15 02:39:49 2026 -0400|zabbix: do not error in postinst when no ubusd
+c1e926d72|Sergei S.|Sun Aug 2 19:56:02 2026 +0400|hev-socks5-tunnel: allow multiple instances
 </details>
