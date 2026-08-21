@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/f46934b820517bb9123b80c6312918dba3231187...c1e926d7222fc86defe8c3dda438a09a2082db82)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-c1e926d72|Sergei S.|Sun Aug 2 19:56:02 2026 +0400|hev-socks5-tunnel: allow multiple instances
-</details>
