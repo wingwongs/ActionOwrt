@@ -53,6 +53,10 @@ clone_custom_packages () {
 
     # daed (QiuSimons 优化版, 基于 eBPF 的高性能透明代理)
     git clone https://github.com/QiuSimons/luci-app-daed.git ${path}luci-app-daed
+    # 修复 daed Makefile 中 Build/Prepare 阶段 clone 前未清空 $(PKG_BUILD_DIR) 的 bug
+    if [ -f "${path}luci-app-daed/daed/Makefile" ]; then
+        sed -i 's/\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)\/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ;/\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)\/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ; rm -rf \$(PKG_BUILD_DIR) ;/' "${path}luci-app-daed/daed/Makefile"
+    fi
 
     # partexp (一键自动分区扩容挂载)
     git clone https://github.com/sirpdboy/luci-app-partexp.git ${path}luci-app-partexp

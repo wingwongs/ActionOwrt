@@ -77,8 +77,9 @@ rm -rf ./package/feeds/luci/luci-app-daed
 sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
 
 # fixed rust host build download llvm in ci error
-# sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' package/custom_overrides/rust/Makefile
-# grep -q -- '--ci false \\' package/custom_overrides/rust/Makefile || sed -i '/x\.py \\/a \        --ci false \\' package/custom_overrides/rust/Makefile
+for rust_mk in feeds/packages/lang/rust/Makefile package/feeds/packages/rust/Makefile package/custom_overrides/rust/Makefile; do
+    [ -f "$rust_mk" ] && sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' "$rust_mk"
+done
 
 # inject download package
 mkdir -p dl

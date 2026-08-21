@@ -39,6 +39,11 @@ sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generat
 # Modify default passwd
 sed -i '/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF./ d' package/lean/default-settings/files/zzz-default-settings
 
+# fixed rust host build download llvm in ci error
+for rust_mk in feeds/packages/lang/rust/Makefile package/feeds/packages/rust/Makefile package/custom_overrides/rust/Makefile; do
+    [ -f "$rust_mk" ] && sed -i 's/--set=llvm\.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' "$rust_mk"
+done
+
 # inject download package
 mkdir -p dl
 cp -a $PATCHES_SRC_DIR/library/* ./dl/
