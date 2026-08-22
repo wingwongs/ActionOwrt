@@ -52,7 +52,7 @@ clone_custom_packages () {
     git clone https://github.com/destan19/OpenAppFilter.git ${path}OpenAppFilter
 
     # daed (QiuSimons 优化版, 基于 eBPF 的高性能透明代理)
-    git clone https://github.com/QiuSimons/luci-app-daed.git ${path}luci-app-daed
+    git clone https://github.com/QiuSimons/luci-app-daed.git ${path}dae
     # 修复 daed Makefile 中 Build/Prepare 阶段 clone 前未清空 $(PKG_BUILD_DIR) 的 bug
     # if [ -f "${path}luci-app-daed/daed/Makefile" ]; then
         # sed -i 's|\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ;|\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ; rm -rf \$(PKG_BUILD_DIR) ;|' "${path}luci-app-daed/daed/Makefile"
