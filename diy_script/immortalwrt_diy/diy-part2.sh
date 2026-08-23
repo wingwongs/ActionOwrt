@@ -140,6 +140,33 @@ EOF
 chmod +x files/etc/uci-defaults/99-custom-ssh-config
 
 # --- End Modify SSH Configuration ---
+
+# --- R2S 网口分配: LAN=eth0, WAN=eth1 ---
+cat << 'NETEOF' > files/etc/uci-defaults/98-custom-r2s-network
+#!/bin/sh
+
+# 仅在 NanoPi R2S 设备上执行
+board_name=$(cat /tmp/sysinfo/board_name 2>/dev/null)
+case "$board_name" in
+friendlyarm,nanopi-r2s|friendlyarm,nanopi-r2s-plus)
+    # 适配 DSA / 现代 OpenWrt (device 语法)
+    uci set network.lan.device='eth0' 2>/dev/null || true
+    uci set network.wan.device='eth1' 2>/dev/null || true
+    uci set network.wan6.device='eth1' 2>/dev/null || true
+
+    # 适配 传统 OpenWrt / LEDE (ifname 语法)
+    uci set network.lan.ifname='eth0' 2>/dev/null || true
+    uci set network.wan.ifname='eth1' 2>/dev/null || true
+    uci set network.wan6.ifname='eth1' 2>/dev/null || true
+
+    uci commit network
+    ;;
+esac
+
+exit 0
+NETEOF
+chmod +x files/etc/uci-defaults/98-custom-r2s-network
+
 #------------------------------------------------end 修改脚本-------------------------------------------------------
 
 
