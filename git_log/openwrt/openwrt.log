@@ -1,11 +1,12 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/4007488e13c8234cf50be45930d96e24dc53085b...80bc5eabe566f71322ca3f25fdab0c1c6692419c)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/80bc5eabe566f71322ca3f25fdab0c1c6692419c...58aa1b7f16efa9bcb36bb4bf609f53874fdc4432)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-80bc5eabe5|Donghyun Ko|Tue Jun 9 21:12:33 2026 +0900|mediatek: fix WLAN LED indication for ipTIME AX3000SE
-390a867118|Magnus Kroken|Tue Aug 11 22:33:15 2026 +0200|mbedtls: update to 3.6.7
-feaa1e685a|Maxim Anisimov|Mon Jun 29 16:14:20 2026 +0300|mediatek: fix nmbm max-reserved-blocks for Keenetic/Netcraze devices
+58aa1b7f16|Charles Joynson|Tue Aug 11 19:12:36 2026 -0400|ramips: mt7621: add TL-R605 v1 as alternative name for TP-Link ER605 v1
+c95c39b147|Charles Joynson|Sat Aug 8 00:50:30 2026 -0400|ramips: mt7621: add support for TP-Link ER605 v1
+5787af6688|Charles Joynson|Sat Aug 8 00:40:01 2026 -0400|base-files: add mtd_get_mac_uci_config()
+cf51ed8784|Fil Dunsky|Fri Jun 12 21:15:27 2026 +0300|mediatek: add support Teralink TL3020
 </details>

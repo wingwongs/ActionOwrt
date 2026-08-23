@@ -1,0 +1,12 @@
+<details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/1759c841b749541256f322b208df8fb1ac6e6aff...54d86475b314e1ce003b98e366c55ea5151ff117)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+54d8647|sbwml|Sun Aug 23 09:44:36 2026 +0800|luci-app-mosdns: po: update zh_Hans translation
+c045d39|sbwml|Sun Aug 23 09:38:50 2026 +0800|mosdns: fix(cache): harden prefetch logic and fix potential data race
+b230ca1|sbwml|Sat Aug 22 23:31:07 2026 +0800|luci-app-mosdns: add proactive prefetch support
+04fdf57|sbwml|Sat Aug 22 23:02:21 2026 +0800|mosdns: cache: add proactive prefetch support
+</details>

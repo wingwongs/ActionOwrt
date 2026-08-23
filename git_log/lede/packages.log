@@ -1,0 +1,11 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/packages/compare/510dd6d4b9ea538c052ab743740e426da7d10ef1...a6b0b0b37aba9a28050d3296c99688a16541a230)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+a6b0b0b3|coolsnowwolf|Sun Aug 23 11:30:15 2026 +0800|docker: update runtime packages
+67c8906a|coolsnowwolf|Sun Aug 23 11:00:53 2026 +0800|Merge pull request #1130 from Internet1235/frp
+e0c35b9f|Internet1235|Thu Aug 6 19:20:16 2026 +0800|frp: update to 0.70.1
+</details>

@@ -1,0 +1,9 @@
+<details> <summary> <b>openwrt-passwall new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/Openwrt-Passwall/openwrt-passwall/compare/98896d195d30a677fec761ce8507461027f91e70...ef6edba00f49dd6273f2a4b3d0b7054fd0b1f9e5)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+ef6edba0|A-BO|Sun Aug 23 01:12:00 2026 +0800|luci: merge `TCP` and `UDP` node
+</details>

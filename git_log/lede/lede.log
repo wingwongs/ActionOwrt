@@ -1,0 +1,12 @@
+<details> <summary> <b>lede new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/81636b77c09434d78eb8dcfd7900347fd5c73d41...a6f03653e5657450bb7b983d61017035ffd77959)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+a6f03653e|coolsnowwolf|Sun Aug 23 12:40:06 2026 +0800|kernel: bump all to latest HEAD
+bb287c19d|Fu Jianrong|Sun Aug 23 10:57:57 2026 +0800|rockchip: fix King3399 DDR initialization (#14111)
+e3949e603|coolsnowwolf|Sun Aug 23 10:57:12 2026 +0800|qualcommax: fix PPP stats update on kernel 6.12
+57bb84af9|Miles Poupart|Sun Aug 23 10:29:07 2026 +0800|kernel: bump 6.12 to 6.12.104 (#14113)
+</details>

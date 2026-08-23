@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/c1e926d7222fc86defe8c3dda438a09a2082db82...57654a9f48f82a2163a36de4123c2537abb5fce8)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-57654a9f4|Dirk Brenken|Fri Aug 21 21:46:55 2026 +0200|banip: release 1.8.12-1
-</details>
