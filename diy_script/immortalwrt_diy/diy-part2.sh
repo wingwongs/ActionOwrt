@@ -141,11 +141,10 @@ chmod +x files/etc/uci-defaults/99-custom-ssh-config
 
 # --- End Modify SSH Configuration ---
 
-# --- R2S 网口分配: LAN=eth0, WAN=eth1 ---
+# --- 自定义网口与 DHCP 配置 (R2S: LAN=eth0, WAN=eth1, 禁用LAN口DHCP; 360V6: 禁用LAN口DHCP) ---
 cat << 'NETEOF' > files/etc/uci-defaults/98-custom-r2s-network
 #!/bin/sh
 
-# 仅在 NanoPi R2S 设备上执行
 board_name=$(cat /tmp/sysinfo/board_name 2>/dev/null)
 case "$board_name" in
 friendlyarm,nanopi-r2s|friendlyarm,nanopi-r2s-plus)
@@ -160,6 +159,15 @@ friendlyarm,nanopi-r2s|friendlyarm,nanopi-r2s-plus)
     uci set network.wan6.ifname='eth1' 2>/dev/null || true
 
     uci commit network
+
+    # LAN 口默认禁用 DHCP 服务
+    uci set dhcp.lan.ignore='1' 2>/dev/null || true
+    uci commit dhcp
+    ;;
+qihoo,360v6|qihoo,360-v6|*360v6*|*360-v6*)
+    # 360V6 LAN 口默认禁用 DHCP 服务
+    uci set dhcp.lan.ignore='1' 2>/dev/null || true
+    uci commit dhcp
     ;;
 esac
 

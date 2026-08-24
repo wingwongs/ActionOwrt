@@ -177,7 +177,7 @@ EOF
 chmod +x files/etc/uci-defaults/99-custom-ssh-config
 # --- End Modify SSH Configuration ---
 
-# --- R2S 网口分配: LAN=eth0, WAN=eth1 ---
+# --- R2S 网口分配与 DHCP 配置: LAN=eth0, WAN=eth1, 禁用LAN口DHCP ---
 cat << 'NETEOF' > files/etc/uci-defaults/98-custom-r2s-network
 #!/bin/sh
 
@@ -196,6 +196,10 @@ friendlyarm,nanopi-r2s|friendlyarm,nanopi-r2s-plus)
     uci set network.wan6.ifname='eth1' 2>/dev/null || true
 
     uci commit network
+
+    # LAN 口默认禁用 DHCP 服务
+    uci set dhcp.lan.ignore='1' 2>/dev/null || true
+    uci commit dhcp
     ;;
 esac
 
