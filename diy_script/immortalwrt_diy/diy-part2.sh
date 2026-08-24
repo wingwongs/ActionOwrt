@@ -74,7 +74,7 @@ rm -rf ./package/feeds/packages/daed
 rm -rf ./package/feeds/luci/luci-app-daed
 
 # Modify default IP
-# sed -i 's/192.168.1.1/10.10.0.253/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 
 # fixed rust host build download llvm in ci error
 for rust_mk in feeds/packages/lang/rust/Makefile package/feeds/packages/rust/Makefile package/custom_overrides/rust/Makefile; do
