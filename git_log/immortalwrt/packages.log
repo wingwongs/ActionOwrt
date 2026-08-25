@@ -1,0 +1,11 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/immortalwrt/packages/compare/75fa85478f7b3161d0bd4d23bbfb85427e1b48d2...8a7c3b22bdd8c3cf347157220e2b97c29db89b57)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+8a7c3b22b|Saxon Sun|Fri Aug 14 12:12:24 2026 +0800|nexttrace: bump to v1.7.2
+c3b229193|Bradford Zhang|Sun Apr 19 20:05:36 2026 +0800|nexttrace: bump to v1.6.2
+3948689be|ImmortalWrt AutoUpdate Bot|Wed Aug 19 09:50:39 2026 +0800|rtp2httpd: update to 3.16.0
+</details>
