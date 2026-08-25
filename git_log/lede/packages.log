@@ -1,9 +1,0 @@
-<details> <summary> <b>packages new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/packages/compare/a6b0b0b37aba9a28050d3296c99688a16541a230...bcc1adfa10c98e5183785d015e4d50ef98f04ab3)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-bcc1adfa|coolsnowwolf|Sun Aug 23 13:01:00 2026 +0800|perl: fix SDBM_File build with GCC 14
-</details>

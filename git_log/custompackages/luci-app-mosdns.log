@@ -1,19 +1,9 @@
 <details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/54d86475b314e1ce003b98e366c55ea5151ff117...06a1f08f07aec8eee794f4935c612d0a85248f06)  
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/06a1f08f07aec8eee794f4935c612d0a85248f06...86b43b91be2a96b131bc71c9696fb8604ebddbf0)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-06a1f08|sbwml|Tue Aug 25 06:51:40 2026 +0800|luci-app-mosdns: set default `log_size` to 1M
-f117866|sbwml|Tue Aug 25 00:22:37 2026 +0800|geo2txt: update to 2026.08.25
-bf3fed9|Bard|Mon Aug 24 20:21:07 2026 +0800|ci: update openwrt-gh-action-sdk to version go1.27
-46535e9|Bard|Mon Aug 24 20:19:15 2026 +0800|ci: update build preparation for geo2txt Makefile
-de2d13a|sbwml|Mon Aug 24 20:13:12 2026 +0800|mosdns: print version information matching the package version
-1da0e1a|sbwml|Mon Aug 24 20:06:59 2026 +0800|luci-app-mosdns: add log size configuration
-853d977|sbwml|Mon Aug 24 19:58:52 2026 +0800|mosdns: default log backups to 0 and default file size to 5M
-2c6cbcf|sbwml|Mon Aug 24 19:43:00 2026 +0800|luci-app-mosdns: replace v2dat with geo2txt
-80779cd|sbwml|Mon Aug 24 19:33:50 2026 +0800|drop v2dat package
-c9e5fe3|sbwml|Mon Aug 24 19:31:06 2026 +0800|geo2txt: add new package
-6f1bc35|sbwml|Mon Aug 24 19:35:19 2026 +0800|docs: update ghproxy
+86b43b9|Bard|Tue Aug 25 12:14:34 2026 +0800|install.sh: replace v2dat with geo2txt
 </details>
