@@ -67,11 +67,15 @@ fi
 # rm appfilter
 rm -rf ./feeds/packages/net/open-app-filter
 
-# rm built-in daed/luci-app-daed (使用 QiuSimons 优化版替代)
+# rm built-in daed/luci-app-daed/luci-app-daede (使用 kenzok8/openwrt-daede 替代)
 rm -rf ./feeds/packages/net/daed
+rm -rf ./feeds/packages/net/dae
 rm -rf ./feeds/luci/applications/luci-app-daed
+rm -rf ./feeds/luci/applications/luci-app-daede
 rm -rf ./package/feeds/packages/daed
+rm -rf ./package/feeds/packages/dae
 rm -rf ./package/feeds/luci/luci-app-daed
+rm -rf ./package/feeds/luci/luci-app-daede
 
 # rm built-in luci-app-tailscale-community (使用 Tokisaki-Galaxy 最新版替代)
 rm -rf ./feeds/luci/applications/luci-app-tailscale-community

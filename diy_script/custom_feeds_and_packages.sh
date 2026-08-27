@@ -51,13 +51,8 @@ clone_custom_packages () {
     
     git clone https://github.com/destan19/OpenAppFilter.git ${path}OpenAppFilter
 
-    # daed (QiuSimons 优化版, 基于 eBPF 的高性能透明代理)
-    git clone https://github.com/QiuSimons/luci-app-daed.git ${path}dae
-    # 修复 daed Makefile: 1) 清空 $(PKG_BUILD_DIR) 防止 clone 报错; 2) CI 环境下使用 --no-frozen-lockfile 防止 pnpm 锁文件报错
-    find "${path}" -type f -path "*/daed/Makefile" | while read -r daed_mk; do
-        sed -i 's|\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ;|\$(TAR) --strip-components=1 -C \$(DAED_BUILD_DIR) -xzf \$(DL_DIR)/\$(PKG_NAME)-\$(PKG_VERSION)\.tar\.gz ; rm -rf \$(PKG_BUILD_DIR) ;|' "$daed_mk"
-        sed -i 's|pnpm install ;|pnpm install --no-frozen-lockfile ;|' "$daed_mk"
-    done
+    # daede (openwrt-daede, 基于 eBPF 的高性能透明代理)
+    git clone https://github.com/kenzok8/openwrt-daede.git ${path}dae
 
     # partexp (一键自动分区扩容挂载)
     git clone https://github.com/sirpdboy/luci-app-partexp.git ${path}luci-app-partexp
