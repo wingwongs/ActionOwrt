@@ -62,6 +62,9 @@ clone_custom_packages () {
     # partexp (一键自动分区扩容挂载)
     git clone https://github.com/sirpdboy/luci-app-partexp.git ${path}luci-app-partexp
 
+    # luci-app-tailscale-community (Tokisaki-Galaxy 最新版)
+    git clone https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community.git ${path}luci-app-tailscale-community
+
     
 
     # sed -i '/^[\t ]*PKG_VERSION:=/ s/\(PKG_VERSION:= *\)[^0-9.]*\([0-9.]*\)[^0-9.]*/\1\2/' "${path}luci-theme-alpha-reborn/Makefile"

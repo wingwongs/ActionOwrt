@@ -73,6 +73,12 @@ rm -rf ./feeds/luci/applications/luci-app-daed
 rm -rf ./package/feeds/packages/daed
 rm -rf ./package/feeds/luci/luci-app-daed
 
+# rm built-in luci-app-tailscale-community (使用 Tokisaki-Galaxy 最新版替代)
+rm -rf ./feeds/luci/applications/luci-app-tailscale-community
+rm -rf ./package/feeds/luci/luci-app-tailscale-community
+rm -rf ./feeds/packages/net/luci-app-tailscale-community
+rm -rf ./package/feeds/packages/luci-app-tailscale-community
+
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.1.253/g' package/base-files/files/bin/config_generate
 
