@@ -1,9 +1,0 @@
-<details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
-
-#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/06a1f08f07aec8eee794f4935c612d0a85248f06...86b43b91be2a96b131bc71c9696fb8604ebddbf0)  
-:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
-
-SHA|Author|Date|Message
--|-|-|-
-86b43b9|Bard|Tue Aug 25 12:14:34 2026 +0800|install.sh: replace v2dat with geo2txt
-</details>

@@ -1,0 +1,11 @@
+<details> <summary> <b>OpenAppFilter new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/destan19/OpenAppFilter/compare/a189ad85e8fb461318533941963f0e2975274a19...b88fcb082597486a816187ec1e02812082161d5e)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+b88fcb0|destan19|Wed Aug 26 21:34:45 2026 +0800|Compatible with older LuCI version
+9caa673|destan19|Wed Aug 26 17:15:28 2026 +0800|add default icon
+15b2b27|destan19|Wed Aug 26 16:50:34 2026 +0800|Supports multiple rules, internet access control, whitelisting, feature online updates, a dashboard, and more.
+</details>

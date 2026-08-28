@@ -1,0 +1,13 @@
+<details> <summary> <b>packages new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/1db6cd846c1c72d77ce38eec28b749affc44b7a0...a970210a468e7effe44f50401e6595f82cc21919)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+a970210a4|Dirk Brenken|Thu Aug 27 14:00:04 2026 +0200|adblock: replace the CARTO basemap with local outlines
+e5d9d775f|Daniel Golle|Fri Aug 21 14:40:13 2026 +0100|exim: update to 4.100
+e13ff2771|Daniel Golle|Tue Jun 9 08:13:24 2026 +0100|exim: update to version 4.99.4
+5b51bcb10|Daniel Golle|Fri May 8 18:14:04 2026 +0100|exim: update to 4.99.3 (security release)
+fe52fc4d1|Dirk Brenken|Thu Aug 27 11:06:55 2026 +0200|banip: replace the CARTO basemap with local outlines
+</details>
