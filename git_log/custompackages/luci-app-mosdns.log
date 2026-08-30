@@ -1,0 +1,14 @@
+<details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/86b43b91be2a96b131bc71c9696fb8604ebddbf0...bfc544369048b1c9661e3de1e95133933f9cbca5)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+bfc5443|sbwml|Sun Aug 30 08:35:36 2026 +0800|luci-app-mosdns: change default log level to error
+db1cd83|sbwml|Sun Aug 30 08:32:49 2026 +0800|luci-app-mosdns: statistics: add query history chart and refine monitoring dashboard
+5195464|sbwml|Sun Aug 30 07:57:12 2026 +0800|luci-app-mosdns: rpcd: Add historical query data
+2e01856|sbwml|Sun Aug 30 07:55:53 2026 +0800|mosdns: use system local timezone for history and log timestamps
+e37ee13|sbwml|Sun Aug 30 00:45:55 2026 +0800|luci-app-mosdns: add statistics page support
+418415f|sbwml|Sat Aug 29 23:34:25 2026 +0800|mosdns: plugin: add `stats_api` plugin
+</details>

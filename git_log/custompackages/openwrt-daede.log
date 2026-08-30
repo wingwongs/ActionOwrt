@@ -1,5 +1,12 @@
 <details> <summary> <b>openwrt-daede new commit log :rocket: </b> </summary>
 
-<b>Initial commit log for openwrt-daede, no previous SHA.</b>
+#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/e0458417a100af098a245ff93ec0cc1b23a02169...8f703e5a21859aa02deabfca2f3e82b1a6b19728)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
+SHA|Author|Date|Message
+-|-|-|-
+8f703e5|kenzok8|Sat Aug 29 01:20:55 2026 +0800|Split upstream sync lanes
+b4e2290|github-actions[bot]|Fri Aug 28 13:16:44 2026 +0000|chore(daed): assemble pinned source 2026.08.28-1
+989fc58|github-actions[bot]|Fri Aug 28 13:07:42 2026 +0000|chore(dae): assemble pinned source 2026.08.28-1
+672d1ee|kenzok8|Fri Aug 28 20:30:50 2026 +0800|Refresh outbound and quic-go pins
 </details>
