@@ -103,6 +103,18 @@ echo "🎉 所有插件注入完毕，保持了原汁原味的 Makefile 相对�
 
 
 #-----------------------------------------------修改脚本------------------------------------------------------------
+# rm built-in argon theme and config
+rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/luci/themes/luci-theme-argon-mod
+rm -rf ./feeds/luci/applications/luci-app-argon-config
+rm -rf ./package/feeds/luci/luci-theme-argon
+rm -rf ./package/feeds/luci/luci-theme-argon-mod
+rm -rf ./package/feeds/luci/luci-app-argon-config
+rm -rf ./package/lean/luci-theme-argon
+rm -rf ./package/lean/luci-app-argon-config
+rm -rf ./package/custom_packages/luci-theme-argon
+rm -rf ./package/custom_packages/luci-app-argon-config
+
 # rm built-in daed/luci-app-daed/luci-app-daede (使用 kenzok8/openwrt-daede 替代)
 rm -rf ./feeds/packages/net/daed
 rm -rf ./feeds/packages/net/dae

@@ -26,8 +26,8 @@ clone_custom_packages () {
     mkdir -p ${path}
 
     # 主题
-    git clone https://github.com/jerrykuku/luci-theme-argon.git ${path}luci-theme-argon
-    git clone https://github.com/jerrykuku/luci-app-argon-config.git ${path}luci-app-argon-config
+    # git clone https://github.com/jerrykuku/luci-theme-argon.git ${path}luci-theme-argon
+    # git clone https://github.com/jerrykuku/luci-app-argon-config.git ${path}luci-app-argon-config
     git clone https://github.com/sirpdboy/luci-theme-kucat.git ${path}luci-theme-kucat
     git clone https://github.com/sirpdboy/luci-app-kucat-config.git ${path}luci-app-kucat-config
     git clone https://github.com/eamonxg/luci-theme-aurora.git ${path}luci-theme-aurora
@@ -88,23 +88,23 @@ clone_custom_packages () {
     echo "注释处理完成。"
     #-------------------------------------------设置默认主题------------------------------------------
     # 1. 确保构建根目录下的自定义文件路径存在
-    mkdir -p files/etc/uci-defaults
+    # mkdir -p files/etc/uci-defaults
     # 2. 将主题设置脚本写入到 zz-set-default-theme 文件中
     # 这里的文本必须全部顶格写，防止 #!/bin/sh 前面产生空格
-cat << "EOF" > files/etc/uci-defaults/zz-set-default-theme
-#!/bin/sh
-
-# 强制覆写节点，不判断任何条件
-uci set luci.themes.Argon=/luci-static/argon
-uci set luci.main.mediaurlbase=/luci-static/argon
-uci commit luci
-
-exit 0
-EOF
+# cat << "EOF" > files/etc/uci-defaults/zz-set-default-theme
+# #!/bin/sh
+# 
+# # 强制覆写节点，不判断任何条件
+# uci set luci.themes.Argon=/luci-static/argon
+# uci set luci.main.mediaurlbase=/luci-static/argon
+# uci commit luci
+# 
+# exit 0
+# EOF
 
     # 3. 赋予可执行权限（否则不会在开机执行）
-    chmod +x files/etc/uci-defaults/zz-set-default-theme
+    # chmod +x files/etc/uci-defaults/zz-set-default-theme
 
-    echo "默认主题设置已生成！"
+    # echo "默认主题设置已生成！"
     #-------------------------------------------end设置默认主题------------------------------------------
 }

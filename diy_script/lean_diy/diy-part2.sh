@@ -24,6 +24,18 @@ fi
 
 
 #-----------------------------------------------修改脚本------------------------------------------------------------
+# rm built-in argon theme and config
+rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/luci/themes/luci-theme-argon-mod
+rm -rf ./feeds/luci/applications/luci-app-argon-config
+rm -rf ./package/feeds/luci/luci-theme-argon
+rm -rf ./package/feeds/luci/luci-theme-argon-mod
+rm -rf ./package/feeds/luci/luci-app-argon-config
+rm -rf ./package/lean/luci-theme-argon
+rm -rf ./package/lean/luci-app-argon-config
+rm -rf ./package/custom_packages/luci-theme-argon
+rm -rf ./package/custom_packages/luci-app-argon-config
+
 # rm appfilter
 rm -rf ./feeds/packages/net/open-app-filter
 

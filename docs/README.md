@@ -157,8 +157,8 @@ CONFIG_PACKAGE_luci-app-banip=y
 ```
 ### 🎨 UI Themes and Interfaces
 ```
-CONFIG_PACKAGE_luci-theme-argon=y
-CONFIG_PACKAGE_luci-app-argon-config=y
+# CONFIG_PACKAGE_luci-theme-argon is not set
+# CONFIG_PACKAGE_luci-app-argon-config is not set
 CONFIG_PACKAGE_luci-theme-kucat=y
 CONFIG_PACKAGE_luci-app-kucat-config=y
 CONFIG_PACKAGE_luci-theme-aurora=y

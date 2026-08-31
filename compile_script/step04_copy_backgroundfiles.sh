@@ -18,15 +18,15 @@ for p in "${copy_backgroundfiles_platforms[@]}"; do
     fi
 done
 
-rm -rf ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background
-mkdir -p ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background
+# rm -rf ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background
+# mkdir -p ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background
 
 if $is_copy_backgroundfiles; then
     echo "copy background files......................"
     if [ ! -n "$is_wsl2op" ]; then
         # Add default login background
-        cp -a $GITHUB_WORKSPACE/source/video/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
-        cp -a $GITHUB_WORKSPACE/source/img/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
+        # cp -a $GITHUB_WORKSPACE/source/video/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
+        # cp -a $GITHUB_WORKSPACE/source/img/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
 
         # Inject download package
         mkdir -p $GITHUB_WORKSPACE/openwrt/dl
@@ -37,8 +37,8 @@ if $is_copy_backgroundfiles; then
 
     else
         # Add default login background
-        cp -a /home/$USER/OpenWrtAction/source/video/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
-        cp -a /home/$USER/OpenWrtAction/source/img/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
+        # cp -a /home/$USER/OpenWrtAction/source/video/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
+        # cp -a /home/$USER/OpenWrtAction/source/img/* ./package/custom_packages/luci-theme-argon/htdocs/luci-static/argon/background/
 
         # Inject download package
         mkdir -p dl
