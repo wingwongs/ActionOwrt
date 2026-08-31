@@ -1,12 +1,10 @@
 <details> <summary> <b>luci-theme-aurora new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/9dd9dc1d974155b985cb6f3a08c05c7e59413e85...2fbd1241741c2e760f9665aa3f39a9cf7e14123b)  
+#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/2fbd1241741c2e760f9665aa3f39a9cf7e14123b...5f4bd6dc5f14ec091814846cd954e6139f7e563d)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-2fbd124|Eamon|Sat Aug 29 18:07:21 2026 +0800|chore: rebuild the router with devkit 0.3.1
-05b25ea|Eamon|Sat Aug 29 17:58:38 2026 +0800|test: fail the walk gate on fallbacks of claimed nodes
-d747e5f|Eamon|Sat Aug 29 16:21:58 2026 +0800|fix: scroll-to-head on the log page landed under the alert banner
-fa418a3|Eamon|Fri Aug 28 19:37:33 2026 +0800|fix: stop the port status cards overlapping
+5f4bd6d|Eamon|Sun Aug 30 14:03:19 2026 +0800|chore: release 1.3.0
+397e46b|Eamon|Sun Aug 30 13:27:57 2026 +0800|fix: line up the network interface cards
 </details>
