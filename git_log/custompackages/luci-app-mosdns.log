@@ -1,12 +1,11 @@
 <details> <summary> <b>luci-app-mosdns new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/bfc544369048b1c9661e3de1e95133933f9cbca5...cab2180939a1c8a0630b2b0196a098a3acb2cef6)  
+#### [:mega: Full Changelog. ](https://github.com/sbwml/luci-app-mosdns/compare/cab2180939a1c8a0630b2b0196a098a3acb2cef6...908d290859746632ee52d9a25a75c8848881b0df)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-cab2180|sbwml|Mon Aug 31 00:30:11 2026 +0800|geo2txt: rewrite in pure C
-609a7dd|sbwml|Sun Aug 30 23:11:51 2026 +0800|luci-app-mosdns: bump version to 1.7.11
-aa201e8|sbwml|Sun Aug 30 23:11:14 2026 +0800|luci-app-mosdns: remove unsupported -t parameter from wget
-8c30513|sbwml|Sun Aug 30 22:44:17 2026 +0800|luci-app-mosdns: remove stats.dump when persistence is disabled
+908d290|sbwml|Mon Aug 31 23:31:44 2026 +0800|luci-app-mosdns: statistics: optimize polling DOM updates and sparkline touch interaction
+83f6b5a|sbwml|Mon Aug 31 23:13:38 2026 +0800|mosdns: stats_api: exclude blocked queries from cache hit percentage
+ad28f69|sbwml|Mon Aug 31 23:13:30 2026 +0800|mosdns: update dependencies
 </details>
