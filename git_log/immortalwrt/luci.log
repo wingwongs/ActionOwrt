@@ -1,0 +1,17 @@
+<details> <summary> <b>luci new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/immortalwrt/luci/compare/cb5d4346bed1d12bf64087e672456360f1600db9...0b3572a17c1543257642716a4e1bdc9b0e74b8d4)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+0b3572a17c|Tianling Shen|Thu Sep 3 16:30:29 2026 +0800|Merge Official Source
+1742cebfca|Aethersailor|Tue Aug 25 12:17:49 2026 +0800|luci-app-openclash: update to 0.47.156
+bf89aa62a9|Tianling Shen|Mon Jun 29 18:28:58 2026 +0800|luci-app-openclash: Update to 0.47.110
+9baefa5ead|Interesting Gang|Wed Aug 26 16:29:50 2026 +0800|luci-app-passwall: bump to 26.9.1
+b7f9e087e8|Aethersailor|Tue Aug 25 19:53:28 2026 +0800|luci-theme-argon: update to 2.4.7
+96cfb62c9c|Interesting Gang|Tue Aug 11 15:59:16 2026 +0800|luci-app-passwall: bump to 26.8.26
+e60322bbe3|Dirk Brenken|Thu Aug 27 13:54:05 2026 +0200|luci-app-banip: replace uncrompressed world.json
+ad61b6185e|Dirk Brenken|Thu Aug 27 13:43:53 2026 +0200|luci-app-adblock: replace the CARTO basemap with local outlines
+643a79d645|Dirk Brenken|Thu Aug 27 10:58:05 2026 +0200|luci-app-banip: replace the CARTO basemap with local outlines
+</details>

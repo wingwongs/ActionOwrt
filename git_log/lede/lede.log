@@ -1,25 +1,12 @@
 <details> <summary> <b>lede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/6992f8aeea7151c444f968326ad526612a0005d7...63fe018ab0e16a003382b684ea6ffb8445b351b5)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/63fe018ab0e16a003382b684ea6ffb8445b351b5...9262b55e09d9dc74024a8effb2b26512b100ef96)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-63fe018ab|coolsnowwolf|Wed Sep 2 01:23:52 2026 +0800|gettext-full: revert to 0.22.5
-92effb01f|coolsnowwolf|Wed Sep 2 01:04:50 2026 +0800|netifd: guard PSE support on kernel headers
-00adc40c1|coolsnowwolf|Wed Sep 2 00:50:33 2026 +0800|iptables: add libiptext runtime dependencies
-225a47e34|coolsnowwolf|Tue Sep 1 00:31:25 2026 +0800|kernel: bump all to latest HEAD
-7ecd05452|coolsnowwolf|Mon Aug 31 23:42:43 2026 +0800|scripts/package-metadata.pl: strip already selected conditions from dependencies
-49b6187e3|coolsnowwolf|Mon Aug 31 23:42:11 2026 +0800|iptables: move libiptext libraries to separate packages
-58dd9b9cb|coolsnowwolf|Mon Aug 31 23:31:59 2026 +0800|feeds.conf: adjust config defaults
-4cc197413|coolsnowwolf|Mon Aug 31 22:48:14 2026 +0800|uboot-mvebu: update to 2026.04
-325312ef2|coolsnowwolf|Mon Aug 31 22:17:54 2026 +0800|mac80211: update to 6.18.39
-fe10a9833|ZeaKyX|Mon Aug 31 22:01:53 2026 +0800|tools: bison: do not install or uninstall macros (#14123)
-475b4b5b0|coolsnowwolf|Mon Aug 31 21:06:14 2026 +0800|zynq: add Linux 6.18 testing support
-88df6da9b|coolsnowwolf|Mon Aug 31 20:50:28 2026 +0800|uml: add Linux 6.18 testing support
-1bc392dd9|coolsnowwolf|Mon Aug 31 20:41:20 2026 +0800|stm32: add Linux 6.18 testing support
-e43d9353c|coolsnowwolf|Mon Aug 31 20:34:00 2026 +0800|starfive: add Linux 6.18 testing support
-ec49935ca|coolsnowwolf|Mon Aug 31 20:23:18 2026 +0800|siflower: add Linux 6.18 testing support
-
-
+9262b55e0|coolsnowwolf|Fri Jul 24 18:02:30 2026 +0800|Revert "base-files: drop legacy wifi script"
+16b091e12|coolsnowwolf|Wed Sep 2 23:15:25 2026 +0800|hostapd: drop files provided by wifi-scripts
+87040395e|coolsnowwolf|Wed Sep 2 23:00:36 2026 +0800|tools: revert gnulib to stable-202401
+dbd42ad68|coolsnowwolf|Wed Sep 2 18:00:00 2026 +0800|base-files: drop legacy wifi script
 </details>

@@ -1,14 +1,18 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/3f6b95b5158040c8b0ef3e7d5e456589344694d5...6d7dc6d5c0ef7655e53e9077076d931f13bf7ca0)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/6d7dc6d5c0ef7655e53e9077076d931f13bf7ca0...f60a090afff932579d015045dd1eff9f744fa043)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-6d7dc6d5c|Daniel F. Dickinson|Fri Aug 28 21:59:18 2026 -0400|zabbix: bump to version 7.0.30
-8a9680f97|Samuele Longhi|Tue Aug 25 13:14:53 2026 +0200|owut: remove comments and empty lines from the built package
-d77b592c3|Alexandru Ardelean|Fri Jul 31 12:38:33 2026 +0300|fluent-bit: fix HTTP output SIGSEGV on too-small coroutine stack
-da7619c62|Sebastian Hamann|Mon Jul 20 10:25:41 2026 +0200|fluent-bit: add init script
-e1792c6ac|Alexandru Ardelean|Fri Jul 3 16:22:51 2026 +0300|fluent-bit: update to 5.0.8, adopt maintainer, fix musl startup segfault
-ce07eb65e|Toke Høiland-Jørgensen|Mon Aug 31 10:55:12 2026 +0200|net/acme-acmesh: prevent concurrent execution of acme.sh instances
+f60a090af|George Sapkin|Wed Sep 2 16:24:24 2026 +0300|golang: bump 1.26 to 1.26.8
+10e3259ba|Ray Wang|Sun Aug 30 21:46:56 2026 +0800|hev-socks5-server: update to 2.13.1
+887504d61|Tianling Shen|Tue Sep 1 09:47:11 2026 +0800|rclone: update to 1.75.0
+f3290d146|Tianling Shen|Tue Sep 1 09:46:40 2026 +0800|openlist: update to 4.2.5
+dd034274f|Tianling Shen|Tue Sep 1 09:45:10 2026 +0800|yq: update to 4.53.6
+19dcbdf84|Tianling Shen|Tue Sep 1 09:38:53 2026 +0800|v2ray-core: update to 5.53.0
+2c0d375b7|Tianling Shen|Mon Jul 27 12:00:52 2026 +0800|geoipupdate: update to 8.0.0
+1bf312360|Tianling Shen|Mon Jul 27 11:26:55 2026 +0800|cloudflared: update to 2026.7.3
+d2a84b036|Tianling Shen|Mon Jul 27 11:28:43 2026 +0800|v2ray-geodata: update to latest version
+db06f4c65|Tianling Shen|Mon Jul 27 11:28:01 2026 +0800|v2ray-core: update to 5.51.2
 </details>
