@@ -115,11 +115,9 @@ rm -rf ./package/lean/luci-app-argon-config
 rm -rf ./package/custom_packages/luci-theme-argon
 rm -rf ./package/custom_packages/luci-app-argon-config
 
-# rm simple-obfs (修复 helloworld feed 中 submodule 下载哈希校验不匹配问题)
-rm -rf ./feeds/helloworld/simple-obfs
-rm -rf ./package/feeds/helloworld/simple-obfs
-rm -rf ./feeds/packages/net/simple-obfs
-rm -rf ./package/feeds/packages/simple-obfs
+# rm helloworld feed and packages (彻底禁用 fw876/helloworld)
+rm -rf ./feeds/helloworld
+rm -rf ./package/feeds/helloworld
 
 # rm built-in daed/luci-app-daed/luci-app-daede (使用 kenzok8/openwrt-daede 替代)
 rm -rf ./feeds/packages/net/daed
