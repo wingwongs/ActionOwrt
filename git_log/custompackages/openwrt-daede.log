@@ -1,0 +1,13 @@
+<details> <summary> <b>openwrt-daede new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/a6c3ced3c7e095630368de96fbf9f2ba03760672...6313ba022ec2124e1c2cd01b1bb5aa365584e896)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+6313ba0|kenzok8|Mon Sep 7 01:52:45 2026 +0800|fix: rollback service readiness gating
+69b0f60|kenzok8|Mon Sep 7 00:33:05 2026 +0800|fix: set luci-app-daede version to 1.15
+6d947bd|kenzok8|Mon Sep 7 00:29:49 2026 +0800|fix: harden service readiness and daed subscriptions
+fab1d9d|kenzok8|Sat Sep 5 23:48:24 2026 +0800|Add configuration recovery and align logs
+806e38e|kenzok8|Fri Sep 4 23:53:42 2026 +0800|Harden daed crash recovery
+</details>
