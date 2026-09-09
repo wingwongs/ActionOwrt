@@ -1,13 +1,14 @@
 <details> <summary> <b>openwrt-daede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/a6c3ced3c7e095630368de96fbf9f2ba03760672...6313ba022ec2124e1c2cd01b1bb5aa365584e896)  
+#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/6313ba022ec2124e1c2cd01b1bb5aa365584e896...7b1daf3e6d0787df204576aa0c696aa9452d5361)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-6313ba0|kenzok8|Mon Sep 7 01:52:45 2026 +0800|fix: rollback service readiness gating
-69b0f60|kenzok8|Mon Sep 7 00:33:05 2026 +0800|fix: set luci-app-daede version to 1.15
-6d947bd|kenzok8|Mon Sep 7 00:29:49 2026 +0800|fix: harden service readiness and daed subscriptions
-fab1d9d|kenzok8|Sat Sep 5 23:48:24 2026 +0800|Add configuration recovery and align logs
-806e38e|kenzok8|Fri Sep 4 23:53:42 2026 +0800|Harden daed crash recovery
+7b1daf3|github-actions[bot]|Tue Sep 8 14:52:29 2026 +0000|chore(daed): assemble pinned source 2026.09.06-2
+fede552|github-actions[bot]|Tue Sep 8 14:50:13 2026 +0000|chore(dae): assemble pinned source 2026.09.06-2
+9100c08|Bernardxu123|Tue Sep 8 22:49:00 2026 +0800|fix(outbound): update REALITY client version
+2fa4ebd|github-actions[bot]|Sun Sep 6 21:35:05 2026 +0000|chore(daed): assemble pinned source 2026.09.06-1
+ec5549e|github-actions[bot]|Sun Sep 6 21:31:44 2026 +0000|chore(dae): assemble pinned source 2026.09.06-1
+93e4493|github-actions[bot]|Sun Sep 6 21:29:44 2026 +0000|chore: bump pins (outbound ae9f25d→13b8501, quic-go 08e975e/08e975e→fbf90cb)
 </details>

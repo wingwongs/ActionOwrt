@@ -20,5 +20,5 @@ openwrt-smartdns:4be700dc3366275605a2a1996865d83ea9bb9a18
 luci-app-smartdns:581e5e816d92d3a663b1b2e331e3f21685968cf1
 luci-app-daed:37a71beda52b39383821bcb6c11ea2be461ccfa3
 luci-app-partexp:236187cfe4f1fab7f2dde5279ce378324c3e5f40
-openwrt-daede:6313ba022ec2124e1c2cd01b1bb5aa365584e896
+openwrt-daede:7b1daf3e6d0787df204576aa0c696aa9452d5361
 luci-app-tailscale-community:99d7dea5d83d175ec95e777b606086cf415c369d

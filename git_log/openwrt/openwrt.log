@@ -1,9 +1,12 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/30d53697c798e61043da296681b9c219ef6b484b...ba3243bba0399e82b20226f3fddcc8f80a70d667)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/ba3243bba0399e82b20226f3fddcc8f80a70d667...7114f29fe210da06458ecae28d8e5a3a5e8a4e7f)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-ba3243bba0|David Bauer|Sat Sep 5 23:59:50 2026 +0200|wifi-scripts: iface: set auth_type on unset encryption
+7114f29fe2|David Bauer|Mon Nov 17 01:50:08 2025 +0100|net/l2tp: reset skb control buffer
+b68374ee50|David Bauer|Sun Jul 26 18:01:51 2026 +0200|base-files: fix missing tabs
+f4efe1d5a6|David Bauer|Thu Feb 26 20:53:19 2026 +0100|wifi-scripts: add option to disable WPS button handling
+26f8f9bb1b|David Bauer|Thu Feb 26 20:53:16 2026 +0100|base-files: add options to disable default button handling
 </details>
