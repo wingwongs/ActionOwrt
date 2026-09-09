@@ -110,7 +110,7 @@ CONFIG_PACKAGE_luci-app-mosdns=y
 # CONFIG_PACKAGE_luci-app-passwall is not set
 # CONFIG_PACKAGE_luci-app-passwall2 is not set
 CONFIG_PACKAGE_luci-app-openclash=y
-CONFIG_PACKAGE_luci-app-nikki=y
+# CONFIG_PACKAGE_luci-app-nikki is not set
 CONFIG_PACKAGE_luci-app-smartdns=y
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 CONFIG_PACKAGE_luci-app-upnp=y

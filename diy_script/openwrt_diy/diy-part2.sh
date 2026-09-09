@@ -119,6 +119,10 @@ rm -rf ./package/custom_packages/luci-app-argon-config
 rm -rf ./feeds/helloworld
 rm -rf ./package/feeds/helloworld
 
+# rm nikki feed and packages (彻底禁用 OpenWrt-nikki)
+rm -rf ./feeds/nikki
+rm -rf ./package/feeds/nikki
+
 # rm built-in daed/luci-app-daed/luci-app-daede (使用 kenzok8/openwrt-daede 替代)
 rm -rf ./feeds/packages/net/daed
 rm -rf ./feeds/packages/net/dae
