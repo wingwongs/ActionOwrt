@@ -1,17 +1,25 @@
 <details> <summary> <b>luci new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/d28e18f0779dddf9aea9826879a5828c0a2f8c6b...98d8a72ea2f55755c4608ef913867ff1d841889b)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/98d8a72ea2f55755c4608ef913867ff1d841889b...edf9a7f6ef6b8cce16e2648df4cba806d9fb1b48)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-98d8a72ea2|lean|Mon Sep 7 12:25:59 2026 +0800|luci-compat: support ucode WireGuard protocol helper
-0938265f38|trli|Sat Sep 5 10:06:28 2026 +0800|luci-app-sysctl: add new packages
-7c16855be2|tonySun|Mon Sep 7 10:11:03 2026 +0800|luci-app-timecontrol: some issues fixes
-85728422a1|coolsnowwolf|Tue Jul 21 07:01:30 2026 +0800|luci-mod-system: allow resolved proc mounts access
-d28e18f077|lean|Mon Sep 7 01:04:13 2026 +0800|luci-mod-system: allow resolved proc mounts access
-c04abe19ae|tonySun|Sun Sep 6 23:11:03 2026 +0800|luci-app-timecontrol: fix IPv6 bypass, midnight weekday shift, flow offloading and auto-reload (#415)
-a3a3682842|trli|Sun Sep 6 12:06:48 2026 +0800|add luci-app-sysctl (#412)
-620c0c5cf2|github-actions[bot]|Sun Sep 6 03:12:25 2026 +0000|ci: sync upstream luci applications
-3837295423|coolsnowwolf|Sun Sep 6 11:10:10 2026 +0800|ci: sync upstream luci applications
+edf9a7f6ef|coolsnowwolf|Mon Sep 14 15:01:25 2026 +0800|luci: rename client overview and add VMware vendor icons
+f4efc0d37c|coolsnowwolf|Mon Sep 14 14:50:49 2026 +0800|luci-app-oui: add GIGABYTE vendor detection and icon
+348b9af486|coolsnowwolf|Mon Sep 14 14:39:48 2026 +0800|luci-mod-status: unify and retain LAN clients for each boot
+bec0d5094d|coolsnowwolf|Mon Sep 14 12:20:50 2026 +0800|luci-mod-network: restore MT798x wireless runtime status
+725ddc051f|coolsnowwolf|Mon Sep 14 02:35:43 2026 +0800|luci-mod-status: link DHCP clients to cached web services
+19cb1097e0|coolsnowwolf|Mon Sep 14 02:02:23 2026 +0800|luci-mod-status: simplify overview memory statistics
+086d8c870d|coolsnowwolf|Mon Sep 14 01:58:34 2026 +0800|luci-mod-status: sort DHCP clients by total traffic by default
+22f66d0d92|coolsnowwolf|Mon Sep 14 01:51:17 2026 +0800|luci-mod-status: show boot-session client traffic totals
+ba93b09113|coolsnowwolf|Mon Sep 14 01:33:07 2026 +0800|luci-mod-status: show aggregate WAN bandwidth progress bars
+45ca7a8d7a|coolsnowwolf|Mon Sep 14 01:06:42 2026 +0800|luci-mod-admin-full: include OUI vendor icons by default
+8ac42d9a35|coolsnowwolf|Mon Sep 14 00:51:38 2026 +0800|luci-mod-status: show cached per-client traffic rates in DHCP leases
+5f52d90cdf|coolsnowwolf|Mon Sep 14 00:13:31 2026 +0800|luci-app-oui: add cached vendor icons to DHCP leases
+380617aad7|coolsnowwolf|Sun Sep 13 23:29:45 2026 +0800|luci-app-openvpn-server: show connected client status
+e74d50d040|coolsnowwolf|Sun Sep 13 23:21:41 2026 +0800|luci-mod-status: honor configured time display options
+26d2f86ae2|coolsnowwolf|Sun Sep 13 23:09:39 2026 +0800|luci-app-firewall: show runtime NAT and TCP CCA status
+
+
 </details>
