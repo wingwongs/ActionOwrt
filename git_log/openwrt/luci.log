@@ -1,18 +1,25 @@
 <details> <summary> <b>luci new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/luci/compare/0f38c02b5e2a1cc756f0e7905a8d99d4aa0b2e54...f883d904d6496e55ae44b414f1fefdfedfff369d)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/luci/compare/f883d904d6496e55ae44b414f1fefdfedfff369d...6e4d9796f8ef8390fe60b56a079e1d5209ad335e)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-f883d904d6|Victoria Grain|Sat Jul 4 20:30:35 2026 +0200|luci-app-olsr: re-add missing interface creation
-cf6fbb71f7|Victoria Grain|Mon Jun 22 19:39:54 2026 +0200|luci-app-olsr: handle multi-line jsoninfo response
-ff1e070c96|Victoria Grain|Thu Jun 18 20:26:58 2026 +0200|luci-app-olsr: update common_js location
-8afa846a3b|Victoria Grain|Thu Jun 18 20:04:41 2026 +0200|luci-app-olsr: support large jsoninfo responses
-6dbd6d299a|Victoria Grain|Thu Jun 18 13:08:14 2026 +0200|luci-app-olsr: fix undefined functions
-6fc5bc3545|Paul Donald|Fri May 22 14:32:21 2026 +0300|luci-app-olsr: correctness fixes
-26299643a4|Dirk Brenken|Sat Sep 12 20:37:51 2026 +0200|luci-app-travelmate: fix missing vpn color on the wireless stations page
-7f05feb8df|Dirk Brenken|Thu Sep 10 20:03:51 2026 +0200|luci-app-banip: sync with base package 1.8.13-2
-faa0ee75c7|Dirk Brenken|Wed Sep 9 22:57:53 2026 +0200|luci-app-travelmate: sync with base package 2.4.9-2
-6502bc6d86|Dirk Brenken|Wed Sep 9 21:39:19 2026 +0200|luci-app-adblock: sync with base package 4.5.8-1
+6e4d9796f8|Eamon Xiong|Mon Oct 5 22:01:06 2026 +0300|luci-mod-dashboard: preserve scroll position during polling
+3e70963a63|Eamon Xiong|Mon Oct 5 22:00:47 2026 +0300|luci-mod-dashboard: show wireless band in Wireless detail tab
+63a428fdb2|Hannu Nyman|Mon Oct 5 20:49:57 2026 +0300|luci-base/luci-lua-runtime: update timezone data to 2026e
+be446e365c|Josef Schlehofer|Mon Sep 28 23:38:29 2026 +0200|luci-app-weechat: add new application
+2858f8d98b|Michael Pfeifroth|Mon Jun 22 14:11:00 2026 +0200|luci-mod-network: hide incompatible encryption modes for 6 GHz
+1fcad1ef1f|Fabiao De Gongniu|Sun Aug 9 08:51:00 2026 +0800|luci-app-natmap: allow reading status under /tmp/run
+a24d1f25c8|Dirk Brenken|Sun Sep 27 22:13:40 2026 +0200|luci-app-adblock: sync with base package
+bb2e34eeee|Hannu Nyman|Sun Sep 27 19:46:58 2026 +0300|treewide: backport and sync translations - i18n
+dd3d1cbca2|Josef Schlehofer|Sun Aug 16 12:40:24 2026 +0200|luci-app-librespeed: add new application
+5dd29213a7|Eamon Xiong|Thu Sep 24 17:53:08 2026 +0300|luci-mod-dashboard: show IP addresses for wireless clients
+ee2fe5b961|Eamon Xiong|Thu Sep 24 17:52:57 2026 +0300|luci-mod-dashboard: add live charts and a configurable layout
+984293d435|Eamon Xiong|Thu Sep 24 17:51:13 2026 +0300|luci-mod-dashboard: fix low contrast of muted elements
+960a57c847|Eamon Xiong|Thu Sep 24 17:50:59 2026 +0300|luci-mod-dashboard: rework the layout using standard LuCI markup
+a23834e0da|Eamon Xiong|Thu Sep 24 17:50:49 2026 +0300|luci-mod-dashboard: retry failed include loads on the next poll
+5ccf4bb207|Maxim Skokov|Thu Sep 24 17:50:34 2026 +0300|luci-mod-dashboard: fix word breaks
+
+
 </details>

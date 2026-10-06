@@ -1,0 +1,14 @@
+<details> <summary> <b>luci-app-tailscale-community new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/Tokisaki-Galaxy/luci-app-tailscale-community/compare/99d7dea5d83d175ec95e777b606086cf415c369d...c223c542686c0ef88b225ca5625ee9bf89f23069)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+c223c54|tokisaki galaxy|Wed Sep 30 22:15:32 2026 +0800|fix(dnsmasq): safely guard service check and avoid rewriting server list
+748a6af|tokisaki galaxy|Wed Sep 30 18:12:17 2026 +0800|fix(luci): optimize peer filter rendering and theme compatibility
+89e1fb7|tokisaki galaxy|Mon Sep 28 16:09:15 2026 +0800|feat(luci): add scroll container with sticky header and peer search filter
+779ad94|tokisaki galaxy|Mon Sep 28 16:06:09 2026 +0800|fix(rpcd): prune get_status payload to avoid ubus message buffer overflow (#74)
+155b8fb|時崎 ギャラクシー|Thu Sep 17 11:17:09 2026 +0800|Merge pull request #73 from Neo1102/patch-1
+bf50dc8|ИEØ_ΙΙØZ|Tue Sep 15 13:59:55 2026 +0800|Refine Chinese translations in community.po
+</details>

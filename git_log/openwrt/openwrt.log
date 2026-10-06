@@ -1,24 +1,25 @@
 <details> <summary> <b>openwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/7114f29fe210da06458ecae28d8e5a3a5e8a4e7f...57d732596479fd7064dedc8753b59634687b740e)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/openwrt/compare/57d732596479fd7064dedc8753b59634687b740e...0110eab5aa100fe7334bcca50398b632869aa16a)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-57d7325964|Luiz Angelo Daros de Luca|Wed Sep 9 15:16:11 2026 -0300|realtek: fix D-Link DGS-1210-28P/MP fan controller
-67b18c1ecc|Semih Baskan|Sun Aug 2 09:54:44 2026 +0300|bcm53xx: fix sysupgrade losing config on NAND devices
-84484e5198|Gary Dotzler|Wed Sep 9 21:14:45 2026 +0000|kernel: fix mt7915e boot crash
-7722054025|Shiji Yang|Wed Sep 2 23:33:49 2026 +0800|kernel: bump 6.12 to 6.12.108
-77bc87827e|Shiji Yang|Thu Aug 27 21:39:12 2026 +0800|kernel: bump 6.12 to 6.12.107
-79c9abd555|Shiji Yang|Mon Aug 24 09:56:30 2026 +0800|kernel: bump 6.12 to 6.12.105
-3aa25ca731|Shiji Yang|Thu Aug 20 20:16:52 2026 +0800|kernel: bump 6.12 to 6.12.104
-13968d9b59|Rosen Penev|Sat Feb 7 15:58:32 2026 -0800|ramips: mtk_eth_soc: handle EPROBE_DEFER for MAC
-c588728777|Hauke Mehrtens|Thu Aug 27 02:26:51 2026 +0200|octeon: handle EPROBE_DEFER when reading MAC addresses
-baa9c9a137|Hauke Mehrtens|Thu Aug 27 02:26:51 2026 +0200|kernel: mvneta: handle EPROBE_DEFER when reading the MAC address
-813d0faa04|Hauke Mehrtens|Thu Aug 27 02:26:51 2026 +0200|kernel: dsa: handle EPROBE_DEFER when reading port MAC addresses
-93ddab6e2b|Hauke Mehrtens|Sat Aug 22 20:12:31 2026 +0200|bmips: enet: handle EPROBE_DEFER for the MAC address
-c2864bc780|Ahmed Naseef|Mon Apr 6 14:19:15 2026 +0400|mediatek: add support for Airtel AirFiber AAP4221ZY
-6c40bc0bb0|Vladimir Zadirei|Sat Aug 29 15:19:41 2026 +0400|adb: fix RSA authentication with mbedTLS
-6f88b325be|Andrea Pesaresi|Sat Aug 29 12:25:43 2026 +0200|mediatek: correct MT7986 system timer rate
+0110eab5aa|Joseph Chen|Sun Oct 4 08:46:32 2026 +0800|sunxi: enable H3 R-PIO support for H5 boards
+44e9ffcf8a|Hauke Mehrtens|Sat Jun 27 16:12:46 2026 +0200|odhcp6c: update to Git HEAD (2026-06-27)
+d9178efb38|Hauke Mehrtens|Sun Oct 4 01:55:38 2026 +0200|rpcd: update to Git HEAD (2026-10-04)
+338eea3efe|Felix Fietkau|Tue Sep 29 17:29:09 2026 +0200|rpcd: update to Git HEAD (2026-09-25)
+a5c8be7fd4|Hauke Mehrtens|Wed Sep 30 00:31:32 2026 +0200|ead: fix out-of-bounds writes in the client message handlers
+186b6c54b0|Karsten Sperling|Sat Aug 15 00:05:40 2026 +1200|hostapd: mbedtls EAP-TLS peer 3.6.3+ compatibility
+872ac2202b|Karsten Sperling|Fri Aug 14 23:52:20 2026 +1200|hostapd: fix inverted test in tls_mbedtls_set_ciphers
+d3bcd690a8|Karsten Sperling|Fri Aug 14 23:49:51 2026 +1200|hostapd: mbedtls check_cert_subject uninitialized read
+f4c7792a75|Hauke Mehrtens|Fri Sep 18 00:52:58 2026 +0200|hostapd: restore Link Measurement Report handling
+179c07baa6|Hauke Mehrtens|Fri Sep 18 00:52:48 2026 +0200|hostapd: free the APuP peer when no AID is available
+4829d41a04|Hauke Mehrtens|Fri Sep 18 00:27:24 2026 +0200|hostapd: fix NULL pointer dereference in APuP beacon handling
+bea8e7be05|Shiji Yang|Sun Oct 4 09:45:12 2026 +0800|kernel: refresh kernel configs for riscv targets
+12d27e860b|Shiji Yang|Sat Oct 3 19:53:00 2026 +0800|kernel: bump 6.12 to 6.12.112
+ebe71a07b8|Shiji Yang|Mon Sep 21 22:52:52 2026 +0800|kernel: bump 6.12 to 6.12.111
+c337f787b5|Shiji Yang|Mon Sep 14 23:09:08 2026 +0800|kernel: generic: remove kconfig symbol ARCH_HAS_PTDUMP
+
 
 </details>

@@ -1,21 +1,25 @@
 <details> <summary> <b>openwrt-daede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/7b1daf3e6d0787df204576aa0c696aa9452d5361...051b25455428921512f0eac67772f2a01af317b3)  
+#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/051b25455428921512f0eac67772f2a01af317b3...82b2165e5ee119f309b3bfd649c73e9b791064ed)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-051b254|kenzok8|Mon Sep 14 11:14:33 2026 +0800|ci: use Beijing date for tags and poll runs gently
-263503a|github-actions[bot]|Sun Sep 13 21:37:54 2026 +0000|chore(daed): assemble pinned source 2026.09.12-1
-88a4b67|github-actions[bot]|Sun Sep 13 21:36:14 2026 +0000|chore(dae): assemble pinned source 2026.09.12-1
-ffd3c31|github-actions[bot]|Sun Sep 13 21:31:25 2026 +0000|chore: bump pins (outbound 13b8501→ebd5cd5, quic-go fbf90cb/fbf90cb→62d80bb)
-7e52b71|有種|Sun Sep 13 21:58:55 2026 +0800|Merge pull request #70 from stephenlzc/fix/daed-guard-ebpf-cleanup
-1658af6|kenzok8|Sun Sep 13 16:26:56 2026 +0800|fix(daed): bound child shutdown
-ea289a6|kenzok8|Sun Sep 13 16:09:14 2026 +0800|Merge current main into PR #70
-2542a13|stephenlzc|Tue Sep 8 22:44:11 2026 +0800|fix: harden daed lifecycle cleanup and signal handling
-0aeae5d|stephenlzc|Tue Sep 8 19:02:19 2026 +0800|fix: close daed startup races on ash
-4cafce7|stephenlzc|Mon Sep 7 23:11:39 2026 +0800|fix: 修复 kenzok8 review 指出的七项合并阻塞问题
-2a085f0|stephenlzc|Sun Sep 6 22:38:30 2026 +0800|fix: address the P1 finding about bpftool not handling tc clsact, and the P1 finding about a stale daed blocking startup
-c1cb42a|stephenlzc|Sun Sep 6 16:56:20 2026 +0800|fix: address Codex review findings on daed-guard / daed.init / cleanup.sh
-a7da308|stephenlzc|Sun Sep 6 13:27:29 2026 +0800|daed/files: add eBPF reaper + pgrep guard + HUP/QUIT trap to daed-guard + cleanup.sh
+82b2165|kenzok8|Thu Oct 1 01:09:27 2026 +0800|Fix editor overlay scrollbar track mismatch on mobile
+838153f|kenzok8|Wed Sep 30 23:31:13 2026 +0800|Fix editor overlay baseline gap
+c2b1d6a|kenzok8|Wed Sep 30 21:32:11 2026 +0800|Fix editor overlay scrollbar misalignment
+0b0e5d6|kenzok8|Fri Sep 25 23:38:46 2026 +0800|Fix daed log filters and netns status
+1294041|kenzok8|Fri Sep 25 15:37:20 2026 +0800|Use geo assets during dae validation
+9f1350f|kenzok8|Fri Sep 25 15:30:34 2026 +0800|Route googleapis.cn through proxy by default
+678b55b|github-actions[bot]|Thu Sep 24 14:06:17 2026 +0000|Assemble daed source
+2cbdb8b|kenzok8|Thu Sep 24 21:59:26 2026 +0800|Keep daed setup state across login
+55efabf|kenzok8|Thu Sep 24 21:43:55 2026 +0800|Handle pending CI conclusions
+2e04c1c|kenzok8|Thu Sep 24 21:28:58 2026 +0800|Isolate upstream audit credentials
+492e4f1|kenzok8|Thu Sep 24 21:19:31 2026 +0800|Show pending updates in Actions
+3eb1b70|kenzok8|Thu Sep 24 21:17:51 2026 +0800|Guard upstream sync before SDK matrix
+df9b476|kenzok8|Wed Sep 23 21:29:13 2026 +0800|Restore daed config marshaller API
+b3b2994|kenzok8|Wed Sep 23 21:15:11 2026 +0800|Fix dae-wing package build
+91fa0c7|kenzok8|Tue Sep 22 11:23:26 2026 +0800|Fix dae debug log controls
+
+
 </details>

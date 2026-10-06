@@ -1,13 +1,9 @@
 <details> <summary> <b>routing new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/routing/compare/83f2caaf218965c4302552c76a38af8564966118...cc66db23430a923df3fe7941a097c5fd4040087b)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/routing/compare/cc66db23430a923df3fe7941a097c5fd4040087b...b32747dca62435f1ea01b7a5320c3da15eead46f)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-cc66db2|Josef Schlehofer|Thu Aug 6 14:31:29 2026 +0200|babeld: initialize metric in the ubus add_filter handler
-77d03c4|Josef Schlehofer|Thu Aug 6 09:47:44 2026 +0200|babeld: simplify LDLIBS in MAKE_FLAGS
-97d1d3c|Josef Schlehofer|Tue Aug 11 13:10:50 2026 +0200|opennds: use the upstream spelling in the URL
-498d4f4|Josef Schlehofer|Tue Aug 11 13:10:50 2026 +0200|nodogsplash: fix config generation in the init script
-6e27196|Josef Schlehofer|Tue Aug 11 13:10:27 2026 +0200|mesh11sd: fix slow response to the informational options
+b32747d|Rob White|Fri Oct 2 15:31:56 2026 +0100|mesh11sd: update to version 7.3.0
 </details>

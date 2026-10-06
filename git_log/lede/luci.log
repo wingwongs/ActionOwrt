@@ -1,25 +1,25 @@
 <details> <summary> <b>luci new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/98d8a72ea2f55755c4608ef913867ff1d841889b...edf9a7f6ef6b8cce16e2648df4cba806d9fb1b48)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/edf9a7f6ef6b8cce16e2648df4cba806d9fb1b48...adbd43e897b28ec636bd79df04e6b2bcf3cdfa02)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-edf9a7f6ef|coolsnowwolf|Mon Sep 14 15:01:25 2026 +0800|luci: rename client overview and add VMware vendor icons
-f4efc0d37c|coolsnowwolf|Mon Sep 14 14:50:49 2026 +0800|luci-app-oui: add GIGABYTE vendor detection and icon
-348b9af486|coolsnowwolf|Mon Sep 14 14:39:48 2026 +0800|luci-mod-status: unify and retain LAN clients for each boot
-bec0d5094d|coolsnowwolf|Mon Sep 14 12:20:50 2026 +0800|luci-mod-network: restore MT798x wireless runtime status
-725ddc051f|coolsnowwolf|Mon Sep 14 02:35:43 2026 +0800|luci-mod-status: link DHCP clients to cached web services
-19cb1097e0|coolsnowwolf|Mon Sep 14 02:02:23 2026 +0800|luci-mod-status: simplify overview memory statistics
-086d8c870d|coolsnowwolf|Mon Sep 14 01:58:34 2026 +0800|luci-mod-status: sort DHCP clients by total traffic by default
-22f66d0d92|coolsnowwolf|Mon Sep 14 01:51:17 2026 +0800|luci-mod-status: show boot-session client traffic totals
-ba93b09113|coolsnowwolf|Mon Sep 14 01:33:07 2026 +0800|luci-mod-status: show aggregate WAN bandwidth progress bars
-45ca7a8d7a|coolsnowwolf|Mon Sep 14 01:06:42 2026 +0800|luci-mod-admin-full: include OUI vendor icons by default
-8ac42d9a35|coolsnowwolf|Mon Sep 14 00:51:38 2026 +0800|luci-mod-status: show cached per-client traffic rates in DHCP leases
-5f52d90cdf|coolsnowwolf|Mon Sep 14 00:13:31 2026 +0800|luci-app-oui: add cached vendor icons to DHCP leases
-380617aad7|coolsnowwolf|Sun Sep 13 23:29:45 2026 +0800|luci-app-openvpn-server: show connected client status
-e74d50d040|coolsnowwolf|Sun Sep 13 23:21:41 2026 +0800|luci-mod-status: honor configured time display options
-26d2f86ae2|coolsnowwolf|Sun Sep 13 23:09:39 2026 +0800|luci-app-firewall: show runtime NAT and TCP CCA status
+adbd43e897|coolsnowwolf|Wed Oct 7 02:50:43 2026 +0800|luci-mod-network: support QCA OWE and restrict 6 GHz security
+2fa3f68a78|github-actions[bot]|Tue Oct 6 08:59:39 2026 +0000|ci: sync upstream luci applications
+740a050066|coolsnowwolf|Tue Oct 6 14:22:45 2026 +0800|rpcd-mod-luci: depend on conntrack netlink
+0425000906|coolsnowwolf|Tue Oct 6 11:41:40 2026 +0800|luci-mod-status: skip disabled QCA wireless probes
+42683b33d5|github-actions[bot]|Mon Oct 5 09:05:46 2026 +0000|ci: sync upstream luci applications
+75e79308cb|coolsnowwolf|Sun Oct 4 22:40:35 2026 +0800|luci-mod-status: avoid stopping QCA APs during channel scans
+5af41275c0|coolsnowwolf|Sun Oct 4 21:54:02 2026 +0800|luci: fix iwinfo device resolution and empty association probes
+de2410c92b|github-actions[bot]|Sun Oct 4 08:27:45 2026 +0000|ci: sync upstream luci applications
+1070ce34b3|coolsnowwolf|Sun Oct 4 12:04:14 2026 +0800|luci-app-ksmbd: add umdns and nbnsd for LAN discovery
+abc91d9ec3|github-actions[bot]|Sat Oct 3 08:06:59 2026 +0000|ci: sync upstream luci applications
+619ef7a586|coolsnowwolf|Sat Oct 3 15:27:12 2026 +0800|luci-app-ksmbd: add hostname setting
+cb0468202e|coolsnowwolf|Sat Oct 3 15:21:58 2026 +0800|luci-mod-status: fix WAN rates with flow offloading
+1c1ef7d6da|coolsnowwolf|Sat Oct 3 15:06:26 2026 +0800|luci-app-ksmbd: align network sharing options with Samba
+0e4103363f|coolsnowwolf|Sat Oct 3 14:47:54 2026 +0800|luci-app-ksmbd: add service enable switch
+109b024f17|coolsnowwolf|Sat Oct 3 13:31:09 2026 +0800|luci-app-ksmbd: enable guest IPC access by default
 
 
 </details>

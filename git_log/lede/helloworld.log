@@ -1,20 +1,25 @@
 <details> <summary> <b>helloworld new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/44553bcc043b37356c158657aeed0daad52a1167...f57afa54c901adf332ec3b145f71421e44918b92)  
+#### [:mega: Full Changelog. ](https://github.com/fw876/helloworld/compare/f57afa54c901adf332ec3b145f71421e44918b92...c39f1e350105f5fc6445506f03363c5bfa44273b)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-f57afa5|zxlhhyccc|Sun Sep 13 19:59:32 2026 +0800|luci-app-ssr-plus: Fix subscribe type erro.
-65bd5a4|zxlhhyccc|Sun Sep 13 19:56:31 2026 +0800|gn: update to git HEAD (2026-09-02)
-6329b39|zxlhhyccc|Sun Sep 13 19:38:42 2026 +0800|luci-app-ssr-plus: Add SOCKS5 auth and unify DNS/Sniffer handling.
-d5645f1|zxlhhyccc|Sun Sep 13 12:55:46 2026 +0800|luci-app-ssr-plus: neaten mihomo SOCKS5 authentication.
-0405684|zxl hhyccc|Sun Sep 13 00:46:14 2026 +0800|Merge pull request #2045 from zxlhhyccc/fake-ip
-e1f753f|zxlhhyccc|Sun Sep 13 00:36:32 2026 +0800|luci-app-ssr-plus: Add mihomo SOCKS5 authentication support.
-6af1631|zxlhhyccc|Sun Sep 13 00:33:46 2026 +0800|luci-app-ssr-plus: Fix YAML line processing pattern
-b96067c|zxl hhyccc|Sat Sep 12 20:53:37 2026 +0800|Merge pull request #2044 from zxlhhyccc/fake-ip
-56f56ec|zxlhhyccc|Wed Sep 9 23:50:35 2026 +0800|luci-app-ssr-plus: Add fake-ip mode and Fix Upload yaml config cannot use external DNS resolution.
-37e1ad7|zxl hhyccc|Thu Sep 10 23:31:49 2026 +0800|shadowsocks-rust: update to 1.25.0
-8663a89|zxl hhyccc|Thu Sep 10 23:30:20 2026 +0800|xray-core: update to 26.9.9
-4efbf62|coolsnowwolf|Wed Sep 9 21:38:36 2026 +0800|luci-app-ssr-plus: fix SOCKS5 server startup
+c39f1e35|coolsnowwolf|Tue Oct 6 15:09:32 2026 +0800|xray-core, luci-app-ssr-plus: add AnyTLS support
+d012ba95|coolsnowwolf|Tue Oct 6 14:33:35 2026 +0800|xray-core: restore explicit allowInsecure support
+99a83b40|coolsnowwolf|Tue Oct 6 14:08:09 2026 +0800|mihomo: enable UPX best compression by default
+a7aca935|coolsnowwolf|Tue Oct 6 00:57:55 2026 +0800|luci-app-ssr-plus: separate domain whitelist into an address set
+d88e25f5|coolsnowwolf|Sat Oct 3 11:40:51 2026 +0800|xray-core: enable UPX best compression by default
+23fe28db|coolsnowwolf|Sat Oct 3 11:24:37 2026 +0800|upx: add version 5.2.1 with host build support
+d23e0d63|coolsnowwolf|Fri Oct 2 17:17:45 2026 +0800|luci-app-ssr-plus: keep whitelist DNS upstream selection unchanged
+60393ff6|coolsnowwolf|Fri Oct 2 10:31:29 2026 +0800|luci-app-ssr-plus: bump version to v196.11
+ae365f01|coolsnowwolf|Fri Oct 2 10:30:36 2026 +0800|mihomo: update to 1.19.32
+a12ceacf|coolsnowwolf|Thu Oct 1 23:33:55 2026 +0800|luci-app-ssr-plus: drop direct coreutils dependency
+fa45bf0c|coolsnowwolf|Thu Oct 1 23:33:08 2026 +0800|luci-app-ssr-plus: drop unused coreutils-base64 dependency
+4e4a6206|coolsnowwolf|Thu Oct 1 23:27:11 2026 +0800|xray-core: update to 26.9.30
+6303b238|coolsnowwolf|Thu Oct 1 23:22:46 2026 +0800|luci-app-ssr-plus: upgrade Mihomo using release packages
+69fd3c8e|coolsnowwolf|Sat Sep 26 09:50:40 2026 +0800|gn: fix converting constructors in Result fallback
+dd39509b|coolsnowwolf|Sat Sep 26 09:03:39 2026 +0800|ci: use latest OpenWrt master Go toolchain for release builds
+
+
 </details>
