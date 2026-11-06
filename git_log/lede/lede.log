@@ -1,25 +1,25 @@
 <details> <summary> <b>lede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/cfc4a0d25a6440270deb028feece921e382ee5d7...f9afd0ed6f92fc44356de13d3f56e0751ede6367)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/lede/compare/f9afd0ed6f92fc44356de13d3f56e0751ede6367...55897b73604c219c7518e14a25c51d017d5defba)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-f9afd0ed6|coolsnowwolf|Wed Oct 7 03:52:35 2026 +0800|kernel: fix nft flow offload with unknown forward paths
-88f08888b|coolsnowwolf|Mon Oct 5 21:49:42 2026 +0800|mvebu: scope IEI MCU sources to Linux 6.18
-7fc382c1e|coolsnowwolf|Mon Oct 5 10:41:17 2026 +0800|rockchip: fix NanoPi R28S PCIe Ethernet
-c312460dc|coolsnowwolf|Sun Oct 4 23:33:56 2026 +0800|kernel: update supported versions to latest releases
-e4af66468|coolsnowwolf|Sat Oct 3 15:16:49 2026 +0800|firewall4: port LAN WSD discovery notrack rules
-ce6672616|coolsnowwolf|Sat Oct 3 13:14:48 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 6.12
-d79e6d17c|coolsnowwolf|Sat Oct 3 13:10:05 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 6.6
-93300eab0|coolsnowwolf|Sat Oct 3 13:06:14 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 6.1
-14a864b8c|coolsnowwolf|Sat Oct 3 13:01:18 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 5.15
-b6de0ba12|coolsnowwolf|Sat Oct 3 12:58:00 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 5.10
-a9960d888|coolsnowwolf|Sat Oct 3 12:54:30 2026 +0800|kernel: reserve Broadcom fullcone ports early on Linux 5.4
-64315ff7b|coolsnowwolf|Sat Oct 3 12:05:59 2026 +0800|kernel: align nft Broadcom fullcone mode 2 on Linux 6.12
-e5e070330|coolsnowwolf|Sat Oct 3 12:02:52 2026 +0800|kernel: align nft Broadcom fullcone mode 2 on Linux 6.6
-25afec95c|coolsnowwolf|Sat Oct 3 12:00:01 2026 +0800|kernel: fix nft Broadcom fullcone mode 2 on Linux 6.1
-36fa0fca3|coolsnowwolf|Sat Oct 3 11:57:18 2026 +0800|kernel: fix nft Broadcom fullcone mode 2 on Linux 5.15
+55897b736|coolsnowwolf|Sat Nov 7 01:29:55 2026 +0800|aic8800: terminate the PCI device ID table
+0f0867954|coolsnowwolf|Sat Nov 7 01:29:44 2026 +0800|qca-nss-ecm: fix netlink bind on newer stable kernels
+f421cd2b0|coolsnowwolf|Sat Nov 7 01:29:33 2026 +0800|build: skip dependencies implied by compound conditions
+74a59a582|fxfall|Wed Nov 4 22:51:08 2026 +0800|zte: add support for ZXSLC SR1010 (ZX279133) (#14272)
+f61f09e85|coolsnowwolf|Wed Nov 4 13:45:20 2026 +0800|generic: port Linux kernel 7.3 support
+95e79ab15|coolsnowwolf|Mon Nov 2 23:49:07 2026 +0800|armsr: enable generic ALSA drivers on armv8 Linux 6.18
+ec2b9317f|coolsnowwolf|Mon Nov 2 23:34:25 2026 +0800|rockchip: allow NanoPi R4S SD power cycling on Linux 6.18
+667a1afd8|coolsnowwolf|Mon Nov 2 15:21:51 2026 +0800|qualcommbe: restore original authors and patch sign-offs
+d320b9c9a|Miles Poupart|Mon Nov 2 10:42:28 2026 +0800|kernel: fix NFS Kerberos module packaging on 6.18 and add missing Panfrost shmem helper dependency (#14264)
+0896ac040|coolsnowwolf|Mon Nov 2 10:15:26 2026 +0800|qualcommbe: update JDCloud IPQ53xx display models
+7390bdac4|coolsnowwolf|Mon Nov 2 10:11:37 2026 +0800|realtek: fix image metadata scanning in menuconfig
+b766e605c|coolsnowwolf|Mon Nov 2 08:19:59 2026 +0800|sunxi: fix A523 IOMMU callback for Linux 6.18
+390ec7e7d|coolsnowwolf|Mon Nov 2 04:56:11 2026 +0800|silicon: add Apple ARM64 platform support with Linux 6.18
+7ac6fc2f0|coolsnowwolf|Mon Nov 2 04:16:41 2026 +0800|oxnas: restore platform support and switch to Linux 6.18
+509da39ef|coolsnowwolf|Mon Nov 2 03:46:10 2026 +0800|yt6801: correct timer compatibility patch for Linux 6.18
 
 
 </details>

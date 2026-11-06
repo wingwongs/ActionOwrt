@@ -1,0 +1,10 @@
+<details> <summary> <b>luci-app-partexp new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/sirpdboy/luci-app-partexp/compare/236187cfe4f1fab7f2dde5279ce378324c3e5f40...ef79d6b8c7f1e4d476be55dabb4c34d5b7f334c5)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+ef79d6b|Pdboy Sir|Fri Oct 30 02:00:32 2026 +0800|Merge pull request #22 from Novice-PG/fix/overlay-copy
+8b66599|Novice-PG|Thu Oct 29 19:18:01 2026 +0800|partexp: fix overlay expansion silently copying nothing
+</details>

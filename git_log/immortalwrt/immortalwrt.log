@@ -1,25 +1,25 @@
 <details> <summary> <b>immortalwrt new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/immortalwrt/immortalwrt/compare/3a0f609352e0b582fc670af865ad449a65b18e62...89dfac46c9f1eaeb56c6cf49eb289b4475f446f7)  
+#### [:mega: Full Changelog. ](https://github.com/immortalwrt/immortalwrt/compare/89dfac46c9f1eaeb56c6cf49eb289b4475f446f7...3682a14dd5ec6382af65d7e72b5b415b5f3173a8)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-89dfac46c9|Tianling Shen|Sun Oct 4 17:54:28 2026 +0800|Merge Official Source
-69c6eebf56|Hauke Mehrtens|Thu Oct 1 01:48:34 2026 +0200|mac80211: update to version 6.18.55
-5545740354|Tianling Shen|Thu May 21 17:00:34 2026 +0800|valgrind: fix ARMv7 detection on AArch64
-15421742a9|Michael Pfeifroth|Mon Jun 22 14:13:37 2026 +0200|wifi-scripts: enforce WPA3 for all encryption types on 6 GHz
-313718c25f|Tianling Shen|Fri Oct 2 14:54:24 2026 +0800|openssl: prefer AES GCM by default for aarch64
-6b4db17134|Tianling Shen|Fri Oct 2 14:53:04 2026 +0800|Merge Official Source
-6ad13aa729|Christian Marangi|Wed Sep 30 09:41:29 2026 +0200|arm-trusted-firmware-airoha: update to Git HEAD (2026-08-20)
-b72d70255b|Mikhail Zhilkin|Fri Aug 14 18:49:13 2026 +0300|arm-trusted-firmware-airoha: update to Git HEAD (2026-08-14)
-e8b0f87ba3|Robert Marko|Sun Aug 9 11:21:46 2026 +0200|arm-trusted-firmware-airoha: fix BL2 packing on Debian 11
-88730313a2|Christian Marangi|Thu Jul 16 20:13:35 2026 +0200|packages/boot: add arm-trusted-firmware-airoha
-cc2716a6aa|Kenneth Kasilag|Wed Apr 1 23:24:39 2026 +0000|airoha: configure FWNODE_PCS
-07671e89b0|George Moussalem|Tue Sep 1 12:21:39 2026 +0400|generic: update to latest fwnode phylink PCS patches
-bcbf4a406a|Christian Marangi|Sun May 17 12:42:29 2026 +0200|generic: update pending PCS patch with .fill_available_pcs OP
-b08e87dd98|Christian Marangi|Wed May 13 13:38:46 2026 +0200|airoha: update ethernet node for new PCS implementation
-c8b8ee607c|Christian Marangi|Wed May 13 00:06:52 2026 +0200|airoha: update PCS node in DTSI for new PCS implementation
+3682a14dd5|Tianling Shen|Fri Oct 30 10:44:42 2026 +0800|Merge Official Source
+5cf752f7ff|Fil Dunsky|Fri Oct 9 23:00:52 2026 +0300|uboot-mediatek: wl-wnt100x3: reduce ram speed to 1866 MT/s
+29bc851e50|Harin Lee|Sat Jul 4 20:04:31 2026 +0900|wifi-scripts: fix macaddr lookup in utils.uc
+514fad5218|Tyrel M. McQueen|Sun Oct 18 15:58:54 2026 -0400|dnsmasq: cherrypick upstream to fix slow loading
+1684a761a3|Hauke Mehrtens|Sun Sep 20 19:52:51 2026 +0200|toolchain: musl: fix multiple integer overflows in regcomp
+79d87e9f6f|Mieczyslaw Nalewaj|Wed Oct 28 17:49:31 2026 +0100|treewide: handle name collisions in set_netdev_labels
+75cd6e6649|Yalei Zang|Wed Oct 14 20:55:22 2026 +0800|airoha: backport LRO offload patch
+f368a9e03e|Robert Marko|Tue Oct 27 09:55:59 2026 +0100|Revert "airoha: backport LRO offload patch"
+c5f7322921|Yalei Zang|Wed Oct 14 20:55:22 2026 +0800|airoha: backport LRO offload patch
+2fd9d4c150|Yalei Zang|Wed Oct 14 20:44:16 2026 +0800|airoha: backport on-demand GDM3/GDM4 QoS configuration
+e2056c9751|Alex Sunekants|Sun Oct 25 23:32:00 2026 +0000|ramips: mt7621: fix SATA detection on MQMaker WiTi
+e0c2fe231e|Robert Marko|Thu Jun 4 22:20:53 2026 +0200|qca-ssdk: update to Git HEAD (2026-06-04)
+2656f60a1b|Christian Marangi|Mon Oct 26 11:37:28 2026 +0100|Revert "qca-ssdk: update to Git HEAD (2026-06-04)"
+f3f5c2e54b|George Moussalem|Thu Jun 4 09:51:33 2026 +0400|qualcommax: ipq50xx: ess-switch: Remove AHB reset quirk
+4651c89ae6|Robert Marko|Thu Jun 4 22:20:53 2026 +0200|qca-ssdk: update to Git HEAD (2026-06-04)
 
 
 </details>

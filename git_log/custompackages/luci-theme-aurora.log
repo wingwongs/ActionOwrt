@@ -1,17 +1,11 @@
 <details> <summary> <b>luci-theme-aurora new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/8c2a6030b68b3c5b82508dd4bee5fb09b0888065...84c27b66952e6fc4be60128067a6b88bfd34afb5)  
+#### [:mega: Full Changelog. ](https://github.com/eamonxg/luci-theme-aurora/compare/84c27b66952e6fc4be60128067a6b88bfd34afb5...298dbcc74ddf820923a51285fb0826d429e5d7ca)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-84c27b6|Eamon|Sun Sep 20 01:01:11 2026 +0800|chore: release 1.4.0
-0c6fa8a|Eamon|Sat Sep 19 22:05:42 2026 +0800|fix: restore the manifest icons and the login blur on Safari, trim main.css
-72e50cf|Eamon|Thu Sep 17 00:16:59 2026 +0800|feat: search a page's tabs from the command palette
-c84409c|Eamon Xiong|Wed Sep 16 19:14:57 2026 +0800|feat: paint the cached menu before first paint
-d13dd9f|Eamon Xiong|Wed Sep 16 18:33:59 2026 +0800|fix: move the content with the sidebar when it opens or closes
-b706763|Eamon Xiong|Wed Sep 16 18:07:26 2026 +0800|feat: ease page content in instead of crossfading the page
-ac4a4b5|Eamon Xiong|Wed Sep 16 18:06:58 2026 +0800|fix: keep the header and page width still while pages load
-a3b86fb|Eamon Xiong|Wed Sep 16 17:52:38 2026 +0800|perf: drop the mega-menu curtain blur
-8ecc6a9|Eamon Xiong|Wed Sep 16 17:02:14 2026 +0800|chore: add an aurora-motion skill
+298dbcc|Eamon Xiong|Wed Nov 4 14:54:44 2026 +0800|fix: streamline login template and auth compatibility
+a80c798|Eamon|Wed Nov 4 00:59:54 2026 +0800|fix: optimize navigation loading
+a09fc30|Eamon|Sat Oct 31 00:07:33 2026 +0800|fix: restore notification dismissal (#103)
 </details>

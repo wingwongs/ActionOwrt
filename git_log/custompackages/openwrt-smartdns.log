@@ -1,0 +1,9 @@
+<details> <summary> <b>openwrt-smartdns new commit log :rocket: </b> </summary>
+
+#### [:mega: Full Changelog. ](https://github.com/pymumu/openwrt-smartdns/compare/4be700dc3366275605a2a1996865d83ea9bb9a18...1db3543cfaa397cd1115b0479416f73062711a63)  
+:heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
+
+SHA|Author|Date|Message
+-|-|-|-
+1db3543|David Mandy|Wed Oct 21 21:11:14 2026 +0800|smartdns: use pinned codeload source archives
+</details>

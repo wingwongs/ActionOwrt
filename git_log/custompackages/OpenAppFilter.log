@@ -1,9 +1,14 @@
 <details> <summary> <b>OpenAppFilter new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/destan19/OpenAppFilter/compare/b88fcb082597486a816187ec1e02812082161d5e...7fcf9e87dc75f7c28c74e09504a4efa0a2db3c92)  
+#### [:mega: Full Changelog. ](https://github.com/destan19/OpenAppFilter/compare/7fcf9e87dc75f7c28c74e09504a4efa0a2db3c92...0814b87f57181ef238b9a21604c999e98de73cf2)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-7fcf9e8|destan19|Thu Sep 24 15:58:35 2026 +0800|oaf:change module depends
+0814b87|destan19|Wed Oct 28 11:20:31 2026 +0800|Update version code
+f98661d|destan19|Tue Oct 27 15:24:40 2026 +0800|#369 Fix lan ifname config error
+db301c6|destan19|Tue Oct 27 15:12:29 2026 +0800|Modify version number
+f75e9ff|destan19|Tue Oct 27 15:10:37 2026 +0800|Optimize mobile display
+1667984|destan19|Tue Oct 27 15:09:51 2026 +0800|Remove dependency on the oaf_rule script
+d4147ab|destan19|Tue Oct 27 15:09:02 2026 +0800|Fix compilation errors in the 6.18 kernel
 </details>

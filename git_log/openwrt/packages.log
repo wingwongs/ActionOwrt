@@ -1,25 +1,25 @@
 <details> <summary> <b>packages new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/9b356cf578d102221926b71bbb0d2e51d3650620...e23a399810d77c68cb552d8a62e4e80bc2a4cda1)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/packages/compare/e23a399810d77c68cb552d8a62e4e80bc2a4cda1...1a304c1a7031e356c97279c9a4a273f1710f08df)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-e23a39981|Dirk Brenken|Tue Oct 6 21:11:36 2026 +0200|travelmate: minor cp fixes
-835252a89|Josef Schlehofer|Tue Oct 6 07:55:42 2026 +0200|ripe-atlas: fit get_key to the installed variant
-cc31d1fc4|Josef Schlehofer|Tue Oct 6 07:51:27 2026 +0200|ripe-atlas: provide atlas-probe from ripe-atlas-probe
-ee3df6503|Josef Schlehofer|Sat Oct 3 22:06:50 2026 +0200|python-setuptools: add python3-xml to python3-pkg-resources
-2ab9ead1f|Josef Schlehofer|Mon Oct 5 17:46:56 2026 +0200|ripe-atlas: add get_key and probeid to init script
-4f03c21a2|Tiago Gaspar|Sat May 31 21:08:47 2025 +0100|atlas-sw-probe: remove package
-0faabfce3|Tiago Gaspar|Sat May 31 21:08:47 2025 +0100|atlas-probe: remove package
-1c6c45116|Josef Schlehofer|Mon Oct 5 07:28:05 2026 +0200|ripe-atlas: take over maintainership
-25a854c9a|Josef Schlehofer|Mon Oct 5 07:28:05 2026 +0200|ripe-atlas: migrate from atlas-sw-probe
-3270c3083|Josef Schlehofer|Mon Oct 5 07:28:05 2026 +0200|ripe-atlas: clean up the Makefile
-4fc8efbc6|Josef Schlehofer|Mon Oct 5 07:28:04 2026 +0200|ripe-atlas: restart the probe on config changes
-721d21c37|Josef Schlehofer|Mon Oct 5 07:28:04 2026 +0200|ripe-atlas: run the probe as root without ujail
-83345b76c|Josef Schlehofer|Mon Oct 5 07:28:04 2026 +0200|ripe-atlas: fix the init script
-e2ec9292a|Alexandru Ardelean|Thu Sep 10 18:10:43 2026 +0300|ripe-atlas: update to 5130
-c19058026|Alexandru Ardelean|Sat Jul 18 21:17:18 2026 +0300|ripe-atlas: add test.sh
+1a304c1a7|George Sapkin|Tue Nov 3 15:21:13 2026 +0200|adguardhome: bump to 0.107.80
+f1accc83d|Darren Tucker|Thu Nov 5 12:51:29 2026 +1100|openssh: update to 10.6_p2
+95e9ff5f8|Daniel F. Dickinson|Fri Oct 30 22:51:36 2026 -0400|zabbix: bump to version 7.0.32
+e0d2c013e|Vladimir Ulrich|Wed Nov 4 19:14:06 2026 +0200|zoneinfo: update to 2026f release
+22319eaa3|Niklas Thorild|Mon Nov 2 20:55:18 2026 +0100|telegraf: update to 1.40.3
+aea49e65a|Josef Schlehofer|Thu Oct 29 14:55:05 2026 +0100|luajit: do not build on riscv64
+9db97fd3f|Josef Schlehofer|Thu Oct 29 14:55:04 2026 +0100|luajit: indent the package metadata with two spaces
+15af690cf|Elly Sai|Thu Oct 1 00:14:20 2026 +0300|ddns-scripts: add alviy.com provider
+8b272d2eb|Romain Isnel|Wed Sep 2 13:11:46 2026 +0200|msmtp: update to 1.8.34
+461a9f053|Josef Schlehofer|Mon Nov 2 23:40:36 2026 +0100|weechat: update to 4.10.2
+771281271|Tianling Shen|Tue Nov 3 17:43:30 2026 +0800|libtorrent-rasterbar: fix Python bindings on 25.12
+3c6f78aa7|Sami Salonen|Sun Oct 25 09:22:08 2026 +0200|netbird: update to 0.81.4
+3a4c00487|Dirk Brenken|Mon Nov 2 17:05:30 2026 +0100|banip: update 1.9.1-5
+e9a1c22d1|Dirk Brenken|Sun Nov 1 19:50:23 2026 +0100|banip: update 1.9.1-4
+630cd7a81|Qingfang Deng|Mon Oct 26 22:24:56 2026 +0800|ovpn-dco: update to 7.3.0.2026100801
 
 
 </details>

@@ -1,25 +1,25 @@
 <details> <summary> <b>openwrt-daede new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/051b25455428921512f0eac67772f2a01af317b3...82b2165e5ee119f309b3bfd649c73e9b791064ed)  
+#### [:mega: Full Changelog. ](https://github.com/kenzok8/openwrt-daede/compare/82b2165e5ee119f309b3bfd649c73e9b791064ed...11da21928536104bc6db48b4c6d11a6b698afb79)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-82b2165|kenzok8|Thu Oct 1 01:09:27 2026 +0800|Fix editor overlay scrollbar track mismatch on mobile
-838153f|kenzok8|Wed Sep 30 23:31:13 2026 +0800|Fix editor overlay baseline gap
-c2b1d6a|kenzok8|Wed Sep 30 21:32:11 2026 +0800|Fix editor overlay scrollbar misalignment
-0b0e5d6|kenzok8|Fri Sep 25 23:38:46 2026 +0800|Fix daed log filters and netns status
-1294041|kenzok8|Fri Sep 25 15:37:20 2026 +0800|Use geo assets during dae validation
-9f1350f|kenzok8|Fri Sep 25 15:30:34 2026 +0800|Route googleapis.cn through proxy by default
-678b55b|github-actions[bot]|Thu Sep 24 14:06:17 2026 +0000|Assemble daed source
-2cbdb8b|kenzok8|Thu Sep 24 21:59:26 2026 +0800|Keep daed setup state across login
-55efabf|kenzok8|Thu Sep 24 21:43:55 2026 +0800|Handle pending CI conclusions
-2e04c1c|kenzok8|Thu Sep 24 21:28:58 2026 +0800|Isolate upstream audit credentials
-492e4f1|kenzok8|Thu Sep 24 21:19:31 2026 +0800|Show pending updates in Actions
-3eb1b70|kenzok8|Thu Sep 24 21:17:51 2026 +0800|Guard upstream sync before SDK matrix
-df9b476|kenzok8|Wed Sep 23 21:29:13 2026 +0800|Restore daed config marshaller API
-b3b2994|kenzok8|Wed Sep 23 21:15:11 2026 +0800|Fix dae-wing package build
-91fa0c7|kenzok8|Tue Sep 22 11:23:26 2026 +0800|Fix dae debug log controls
+11da219|kenzok8|Fri Nov 6 21:37:53 2026 +0800|Give the promote dispatch a repository context
+d3a11b0|有種|Fri Nov 6 17:20:44 2026 +0800|Auto bump staging 42179162040 1 (#115)
+40b8d90|dependabot[bot]|Fri Nov 6 15:46:52 2026 +0800|Bump actions/setup-node from 5 to 7 (#113)
+3b5cfe5|dependabot[bot]|Fri Nov 6 15:46:17 2026 +0800|Bump actions/setup-go from 6 to 7 (#114)
+b87804a|dependabot[bot]|Fri Nov 6 15:45:43 2026 +0800|Bump actions/upload-artifact from 6 to 7 (#111)
+2f2d8c6|dependabot[bot]|Fri Nov 6 15:45:08 2026 +0800|Bump actions/download-artifact from 6 to 8 (#112)
+4e48653|dependabot[bot]|Fri Nov 6 15:44:35 2026 +0800|Bump actions/checkout from 6 to 7 (#110)
+d54dc33|kenzok8|Fri Nov 6 15:37:26 2026 +0800|Add release, download, commit, stars and closed-issue badges
+379041f|kenzok8|Fri Nov 6 13:34:38 2026 +0800|docs: switch the handbook to a kernel-console look
+9df807d|kenzok8|Fri Nov 6 13:18:34 2026 +0800|docs: publish the handbook to GitHub Pages
+1eedcaf|kenzok8|Sat Oct 31 22:42:24 2026 +0800|Prune candidate staging after each release
+ecddf7a|kenzok8|Sat Oct 31 21:44:42 2026 +0800|Make the promote aggregate wait rate-limit aware
+6ac53cb|github-actions[bot]|Sat Oct 31 08:43:29 2026 +0000|Assemble daed source
+3ffd141|github-actions[bot]|Sat Oct 31 08:42:09 2026 +0000|Assemble dae source
+77daecc|github-actions[bot]|Sat Oct 31 08:41:40 2026 +0000|Bump upstream pins
 
 
 </details>

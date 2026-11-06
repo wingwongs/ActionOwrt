@@ -1,25 +1,25 @@
 <details> <summary> <b>luci new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/edf9a7f6ef6b8cce16e2648df4cba806d9fb1b48...adbd43e897b28ec636bd79df04e6b2bcf3cdfa02)  
+#### [:mega: Full Changelog. ](https://github.com/coolsnowwolf/luci/compare/adbd43e897b28ec636bd79df04e6b2bcf3cdfa02...b4df3bda1b3a6ca83ae20247472e575dc0117d1f)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-adbd43e897|coolsnowwolf|Wed Oct 7 02:50:43 2026 +0800|luci-mod-network: support QCA OWE and restrict 6 GHz security
-2fa3f68a78|github-actions[bot]|Tue Oct 6 08:59:39 2026 +0000|ci: sync upstream luci applications
-740a050066|coolsnowwolf|Tue Oct 6 14:22:45 2026 +0800|rpcd-mod-luci: depend on conntrack netlink
-0425000906|coolsnowwolf|Tue Oct 6 11:41:40 2026 +0800|luci-mod-status: skip disabled QCA wireless probes
-42683b33d5|github-actions[bot]|Mon Oct 5 09:05:46 2026 +0000|ci: sync upstream luci applications
-75e79308cb|coolsnowwolf|Sun Oct 4 22:40:35 2026 +0800|luci-mod-status: avoid stopping QCA APs during channel scans
-5af41275c0|coolsnowwolf|Sun Oct 4 21:54:02 2026 +0800|luci: fix iwinfo device resolution and empty association probes
-de2410c92b|github-actions[bot]|Sun Oct 4 08:27:45 2026 +0000|ci: sync upstream luci applications
-1070ce34b3|coolsnowwolf|Sun Oct 4 12:04:14 2026 +0800|luci-app-ksmbd: add umdns and nbnsd for LAN discovery
-abc91d9ec3|github-actions[bot]|Sat Oct 3 08:06:59 2026 +0000|ci: sync upstream luci applications
-619ef7a586|coolsnowwolf|Sat Oct 3 15:27:12 2026 +0800|luci-app-ksmbd: add hostname setting
-cb0468202e|coolsnowwolf|Sat Oct 3 15:21:58 2026 +0800|luci-mod-status: fix WAN rates with flow offloading
-1c1ef7d6da|coolsnowwolf|Sat Oct 3 15:06:26 2026 +0800|luci-app-ksmbd: align network sharing options with Samba
-0e4103363f|coolsnowwolf|Sat Oct 3 14:47:54 2026 +0800|luci-app-ksmbd: add service enable switch
-109b024f17|coolsnowwolf|Sat Oct 3 13:31:09 2026 +0800|luci-app-ksmbd: enable guest IPC access by default
+b4df3bda1b|github-actions[bot]|Fri Nov 6 09:25:51 2026 +0000|ci: sync upstream luci applications
+7b675b7077|coolsnowwolf|Fri Nov 6 10:36:12 2026 +0800|luci-app-firewall: add Airoha PPE binding threshold setting
+04bdb60fc1|github-actions[bot]|Wed Nov 4 09:13:36 2026 +0000|ci: sync upstream luci applications
+d9b0cc4812|coolsnowwolf|Tue Nov 3 22:18:33 2026 +0800|luci-app-firewall: add hardware offload protocol selection
+f784ce161a|coolsnowwolf|Tue Nov 3 10:25:03 2026 +0800|luci-app-zerotier: bump version
+f4c14a85d6|github-actions[bot]|Mon Nov 2 09:31:47 2026 +0000|ci: sync upstream luci applications
+f0e4c0f6b8|github-actions[bot]|Sun Nov 1 09:17:04 2026 +0000|ci: sync upstream luci applications
+d7d7e0849d|coolsnowwolf|Sun Nov 1 09:15:50 2026 +0800|luci: integrate per-client hardware QoS controls and routed connection counts
+a2aebe9faf|coolsnowwolf|Sat Oct 31 17:21:09 2026 +0800|luci: fall back to QCA radio names for generic hardware records
+d71a2d9cd1|github-actions[bot]|Sat Oct 31 08:26:32 2026 +0000|ci: sync upstream luci applications
+6c4b649244|coolsnowwolf|Sat Oct 31 11:59:39 2026 +0800|luci-mod-status: avoid counting buffers twice in available memory
+66112fc2a8|coolsnowwolf|Sat Oct 31 10:43:54 2026 +0800|luci-app-firewall: gate software offload and translate vendor modes
+401af8da8d|coolsnowwolf|Sat Oct 31 00:43:47 2026 +0800|luci-app-openclash: respect completed setup guide state
+824505c730|github-actions[bot]|Fri Oct 30 08:40:03 2026 +0000|ci: sync upstream luci applications
+61beae9960|coolsnowwolf|Thu Oct 29 21:54:19 2026 +0800|luci-app-diskman: use kmod-fs-exfat on all kernels
 
 
 </details>

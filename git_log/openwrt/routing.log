@@ -1,9 +1,12 @@
 <details> <summary> <b>routing new commit log :rocket: </b> </summary>
 
-#### [:mega: Full Changelog. ](https://github.com/openwrt/routing/compare/cc66db23430a923df3fe7941a097c5fd4040087b...b32747dca62435f1ea01b7a5320c3da15eead46f)  
+#### [:mega: Full Changelog. ](https://github.com/openwrt/routing/compare/b32747dca62435f1ea01b7a5320c3da15eead46f...625f9d8446807708bab4eef26cdc44692164818a)  
 :heavy_exclamation_mark: The list displays only the latest 15 commit logs.  
 
 SHA|Author|Date|Message
 -|-|-|-
-b32747d|Rob White|Fri Oct 2 15:31:56 2026 +0100|mesh11sd: update to version 7.3.0
+625f9d8|Simon Wunderlich|Fri Nov 6 18:14:51 2026 +0100|Merge pull request #1209 from ecsv/batadv-for-25.12
+27ce791|Sven Eckelmann|Fri Nov 6 17:39:49 2026 +0100|batman-adv: merge bugfixes from 2026.4
+48c8080|Rob White|Tue Oct 13 22:47:38 2026 +0100|mesh11sd: update to version 7.3.1
+23912fb|Simon Polack|Sun Oct 11 14:04:40 2026 +0200|olsrd: ubus: forget an interface that is already gone
 </details>
